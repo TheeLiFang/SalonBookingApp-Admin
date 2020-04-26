@@ -1,0 +1,1265 @@
+Index: app/src/main/res/layout/listview_service.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:background=\"@drawable/card_background_selector\"\r\n    android:orientation=\"vertical\"\r\n    android:paddingLeft=\"5dip\"\r\n    android:paddingRight=\"5dip\">\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n\r\n        <TextView\r\n            android:layout_width=\"80dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"8dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:text=\"@string/service_name\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:text=\"@string/colon\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/tvServiceName\"\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"8dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n    </LinearLayout>\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n\r\n        <TextView\r\n            android:layout_width=\"80dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"8dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:text=\"@string/service_price\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:text=\"@string/colon\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/tvServicePrice\"\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"8dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n    </LinearLayout>\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\">\r\n\r\n        <TextView\r\n            android:layout_width=\"80dp\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"8dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:text=\"@string/service_duration\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:text=\"@string/colon\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/tvServiceDuration\"\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingTop=\"4dp\"\r\n            android:paddingRight=\"8dp\"\r\n            android:paddingBottom=\"4dp\"\r\n            android:textColor=\"@color/black\"\r\n            android:textSize=\"16sp\" />\r\n    </LinearLayout>\r\n\r\n    <View\r\n        android:layout_width=\"fill_parent\"\r\n        android:layout_height=\"1px\"\r\n        android:layout_marginLeft=\"8dp\"\r\n        android:layout_marginTop=\"4dp\"\r\n        android:layout_marginRight=\"8dp\"\r\n        android:background=\"@color/black\" />\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/listview_service.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/res/layout/listview_service.xml	(date 1585372000121)
+@@ -18,7 +18,7 @@
+             android:paddingTop="4dp"
+             android:paddingRight="4dp"
+             android:paddingBottom="4dp"
+-            android:text="@string/service_name"
++            android:text="@string/staff_name"
+             android:textColor="@color/black"
+             android:textSize="16sp" />
+ 
+Index: app/src/main/res/layout/service_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/container\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\">\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/title_layout\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"vertical\">\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:padding=\"16dp\"\r\n            android:text=\"@string/services\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"24sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n    </LinearLayout>\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/title_layout_filter\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"horizontal\">\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:padding=\"16dp\"\r\n            android:text=\"@string/category_name\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"24sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <FrameLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"\r\n            android:layout_marginEnd=\"15dp\"\r\n            android:background=\"@drawable/drawable_spinner_border\">\r\n\r\n            <Spinner\r\n                android:id=\"@+id/categorySpinner\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"match_parent\"\r\n                android:textSize=\"24sp\" />\r\n        </FrameLayout>\r\n\r\n    </LinearLayout>\r\n\r\n    <FrameLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\">\r\n\r\n        <ListView\r\n            android:id=\"@+id/card_listView_service\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_marginLeft=\"5dp\"\r\n            android:layout_marginRight=\"5dp\"\r\n            android:cacheColorHint=\"@android:color/transparent\"\r\n            android:divider=\"@null\"\r\n            android:dividerHeight=\"10dp\"\r\n            android:listSelector=\"@android:color/transparent\"\r\n            android:padding=\"10dp\"\r\n            android:stateListAnimator=\"@null\" />\r\n\r\n        <com.google.android.material.floatingactionbutton.FloatingActionButton\r\n            android:id=\"@+id/addNewServiceBtn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_gravity=\"bottom|end\"\r\n            android:layout_margin=\"16dp\"\r\n            android:tooltipText=\"@string/tooltip_service_add\"\r\n            app:backgroundTint=\"@color/action_submit_green\"\r\n            app:srcCompat=\"@drawable/icon_add_white_48dp\" />\r\n\r\n    </FrameLayout>\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/service_layout.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/res/layout/service_layout.xml	(date 1585372000122)
+@@ -12,46 +12,48 @@
+         android:id="@+id/title_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
++        android:layout_centerInParent="true"
+         android:orientation="vertical">
+ 
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="16dp"
+-            android:text="@string/services"
++            android:text="Services"
+             android:textColor="@color/white"
+             android:textSize="24sp"
+             android:textStyle="bold" />
+ 
+-    </LinearLayout>
++        <!--<LinearLayout
++            android:layout_width="fill_parent"
++            android:layout_height="wrap_content"
++            android:orientation="horizontal"
++            android:paddingBottom="5dp"
++            android:paddingTop="8dp" >
+ 
+-    <LinearLayout
+-        android:id="@+id/title_layout_filter"
+-        android:layout_width="match_parent"
+-        android:layout_height="wrap_content"
+-        android:orientation="horizontal">
++            <Spinner
++                android:id="@+id/category_spinner"
++                android:layout_width="match_parent"
++                android:layout_height="wrap_content"
++                android:layout_margin="12dp"
++                android:background="@color/white"
++                android:minHeight="35dp"
++                android:padding="15dip"
++                android:popupBackground="@color/white"
++                android:textColor="@color/black" />
+ 
+-        <TextView
+-            android:layout_width="wrap_content"
+-            android:layout_height="wrap_content"
+-            android:padding="16dp"
+-            android:text="@string/category_name"
+-            android:textColor="@color/white"
+-            android:textSize="24sp"
+-            android:textStyle="bold" />
+-
+-        <FrameLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="match_parent"
+-            android:layout_marginEnd="15dp"
+-            android:background="@drawable/drawable_spinner_border">
+-
+-            <Spinner
+-                android:id="@+id/categorySpinner"
+-                android:layout_width="match_parent"
+-                android:layout_height="match_parent"
+-                android:textSize="24sp" />
+-        </FrameLayout>
++            <Button
++                android:id="@+id/filter"
++                android:layout_width="fill_parent"
++                android:layout_height="wrap_content"
++                android:layout_marginTop="3dp"
++                android:background="@drawable/loginbutton_selector"
++                android:gravity="end"
++                android:padding="3dp"
++                android:text="@string/login"
++                android:textColor="#5C5858"
++                android:textStyle="bold"/>
++        </LinearLayout>-->
+ 
+     </LinearLayout>
+ 
+@@ -63,12 +65,13 @@
+             android:id="@+id/card_listView_service"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+-            android:layout_marginLeft="5dp"
+-            android:layout_marginRight="5dp"
++            android:layout_below="@+id/title_layout"
+             android:cacheColorHint="@android:color/transparent"
+             android:divider="@null"
+             android:dividerHeight="10dp"
+             android:listSelector="@android:color/transparent"
++            android:layout_marginLeft="5dp"
++            android:layout_marginRight="5dp"
+             android:padding="10dp"
+             android:stateListAnimator="@null" />
+ 
+@@ -76,7 +79,7 @@
+             android:id="@+id/addNewServiceBtn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_gravity="bottom|end"
++            android:layout_gravity="bottom|right"
+             android:layout_margin="16dp"
+             android:tooltipText="@string/tooltip_service_add"
+             app:backgroundTint="@color/action_submit_green"
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_1_7\" project-jdk-name=\"1.8\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/build/classes\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/misc.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ .idea/misc.xml	(date 1585372000111)
+@@ -1,6 +1,4 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/build/classes" />
+-  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+ </project>
+\ No newline at end of file
+Index: app/src/main/java/com/example/salonbookingapp/Utils.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.content.Context;\r\nimport android.net.ConnectivityManager;\r\nimport android.net.NetworkInfo;\r\n\r\nimport java.net.HttpURLConnection;\r\nimport java.net.URL;\r\n\r\n/**\r\n * Java Singleton Design Pattern - Bill Pugh Singleton Implementation\r\n * https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples\r\n *\r\n * @author Pankaj\r\n * @since Mar 03, 2013\r\n */\r\npublic class Utils {\r\n    private static final Utils INSTANCE = new Utils();\r\n\r\n    // Default constructor\r\n    private Utils() {\r\n    }\r\n\r\n    public static Utils getInstance() {\r\n        return INSTANCE;\r\n    }\r\n\r\n    // Indicate insert or edit page\r\n    public enum Mode {\r\n        Insert,\r\n        Edit\r\n    }\r\n\r\n    // Indicate user is performing submit, update or delete operation\r\n    public enum Task {\r\n        Submit,\r\n        Update,\r\n        Delete\r\n    }\r\n\r\n    // Server URLs\r\n    public static final String SERVER_URL = \"http://192.168.1.9/\";\r\n    public static final String SERVER_FOLDER = \"iisweb/\";\r\n\r\n    // Set connection timeout\r\n    public static int timeout_submission= 30000;\r\n\r\n    // XML Nodes\r\n    public static final String XML_NODE_ROW = \"Row\";\r\n    public static final String XML_NODE_DOWNLOAD = \"Download\";\r\n    public static final String XML_NODE_STATUS = \"Status\";\r\n\r\n    // Email Validation pattern\r\n    public static final String regEx = \"\\\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\\.[A-Za-z]{2,4}\\\\b\";\r\n\r\n    // Fragments Tags\r\n    public static final String Login_Fragment = \"Login_Fragment\";\r\n    public static final String SignUp_Fragment = \"SignUp_Fragment\";\r\n    public static final String ForgotPassword_Fragment = \"ForgotPassword_Fragment\";\r\n    public static final String Home_Fragment = \"Home_Fragment\";\r\n    public static final String Staff_Fragment = \"Staff_Fragment\";\r\n    public static final String StaffDetail_Fragment = \"StaffDetail_Fragment\";\r\n    public static final String Service_Fragment = \"Service_Fragment\";\r\n    public static final String ServiceDetail_Fragment = \"ServiceDetail_Fragment\";\r\n    public static final String BookingDetail_Fragment = \"BookingDetail_Fragment\";\r\n\r\n    // Bundle to pass data between two fragment pages\r\n    public static final String Bundle_Mode = \"mode\";\r\n    public static final String Bundle_Task = \"task\";\r\n    public static final String Bundle_Status = \"status\";\r\n    public static final String Bundle_ID = \"id\";\r\n\r\n    private static Boolean isNetworkConnected(Context context) {\r\n        ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);\r\n        assert connectivityManager != null;\r\n        NetworkInfo network = connectivityManager.getActiveNetworkInfo();\r\n\r\n        return network != null && network.isConnected();\r\n    }\r\n\r\n    public static Boolean isNetworkAvailable(Context context) {\r\n        if (isNetworkConnected(context) == Boolean.TRUE) {\r\n            try {\r\n                URL url = new URL(Utils.SERVER_URL);\r\n\r\n                HttpURLConnection connection = (HttpURLConnection) url.openConnection();\r\n                int timeout_network_check = 10000;\r\n                connection.setConnectTimeout(timeout_network_check);\r\n                connection.connect();\r\n\r\n                return (connection.getResponseCode() == HttpURLConnection.HTTP_OK) ? Boolean.TRUE : Boolean.FALSE;\r\n            } catch (Exception e) {\r\n                return Boolean.FALSE;\r\n            }\r\n        }\r\n\r\n        return Boolean.FALSE;\r\n    }\r\n\r\n    private <T> String writeXML(String rootElement, T obj) {\r\n        return \"<?xml version=\\\"1.0\\\" encoding=\\\"utf-8\\\" ?>\" +\r\n                \"<\" + rootElement + \">\" +\r\n                obj.toString() +\r\n                \"</\" + rootElement + \">\";\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/Utils.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/Utils.java	(date 1585372000119)
+@@ -5,6 +5,7 @@
+ import android.net.NetworkInfo;
+ 
+ import java.net.HttpURLConnection;
++import java.net.MalformedURLException;
+ import java.net.URL;
+ 
+ /**
+@@ -44,6 +45,7 @@
+ 
+     // Set connection timeout
+     public static int timeout_submission= 30000;
++    private static int timeout_network_check = 10000;
+ 
+     // XML Nodes
+     public static final String XML_NODE_ROW = "Row";
+@@ -62,7 +64,6 @@
+     public static final String StaffDetail_Fragment = "StaffDetail_Fragment";
+     public static final String Service_Fragment = "Service_Fragment";
+     public static final String ServiceDetail_Fragment = "ServiceDetail_Fragment";
+-    public static final String BookingDetail_Fragment = "BookingDetail_Fragment";
+ 
+     // Bundle to pass data between two fragment pages
+     public static final String Bundle_Mode = "mode";
+@@ -72,10 +73,9 @@
+ 
+     private static Boolean isNetworkConnected(Context context) {
+         ConnectivityManager connectivityManager = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+-        assert connectivityManager != null;
+         NetworkInfo network = connectivityManager.getActiveNetworkInfo();
+ 
+-        return network != null && network.isConnected();
++        return Boolean.valueOf(network != null && network.isConnected());
+     }
+ 
+     public static Boolean isNetworkAvailable(Context context) {
+@@ -84,11 +84,12 @@
+                 URL url = new URL(Utils.SERVER_URL);
+ 
+                 HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+-                int timeout_network_check = 10000;
+                 connection.setConnectTimeout(timeout_network_check);
+                 connection.connect();
+ 
+                 return (connection.getResponseCode() == HttpURLConnection.HTTP_OK) ? Boolean.TRUE : Boolean.FALSE;
++            } catch (MalformedURLException e) {
++                return Boolean.FALSE;
+             } catch (Exception e) {
+                 return Boolean.FALSE;
+             }
+@@ -98,9 +99,13 @@
+     }
+ 
+     private <T> String writeXML(String rootElement, T obj) {
+-        return "<?xml version=\"1.0\" encoding=\"utf-8\" ?>" +
+-                "<" + rootElement + ">" +
+-                obj.toString() +
+-                "</" + rootElement + ">";
++        StringBuilder sb = new StringBuilder();
++
++        sb.append("<?xml version=\"1.0\" encoding=\"utf-8\" ?>");
++        sb.append("<").append(rootElement).append(">");
++        sb.append(obj.toString());
++        sb.append("</").append(rootElement).append(">");
++
++        return sb.toString();
+     }
+ }
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n\r\n    <string name=\"app_name\">Salon Booking App</string>\r\n    <string name=\"action_settings\">Settings</string>\r\n    <string name=\"email\">Email</string>\r\n    <string name=\"password\">Password</string>\r\n    <string name=\"login\">LOGIN</string>\r\n    <string name=\"logout\">LOGOUT</string>\r\n    <string name=\"show_pwd\">Show Password</string>\r\n    <string name=\"hide_pwd\">Hide Password</string>\r\n    <string name=\"forgot\">Forgot password?</string>\r\n    <string name=\"closeButton\">Close Button for Activity</string>\r\n    <string name=\"newUser\">Not a Member yet? Sign Up here.</string>\r\n    <string name=\"fullName\">Full Name</string>\r\n    <string name=\"mobileNumber\">Mobile Number</string>\r\n    <string name=\"address\">Address</string>\r\n    <string name=\"confirmPassword\">Confirm Password</string>\r\n    <string name=\"terms_conditions\">By clicking SignUp you agree all the Terms and Conditions.</string>\r\n    <string name=\"signUp\">SIGN UP</string>\r\n    <string name=\"already_user\">Already have Account? Login here.</string>\r\n    <string name=\"registered_emailID\">Please enter your Registered Email Id below:</string>\r\n    <string name=\"salonLogin\">Are you a salon owner? Login here.</string>\r\n    <string name=\"submit\">SUBMIT</string>\r\n    <string name=\"back\">BACK</string>\r\n    <string name=\"colon\">:</string>\r\n    <string name=\"confirmation\">Confirmation</string>\r\n    <string name=\"all_fields_are_required\">All fields are required</string>\r\n    <string name=\"error_no_network\">No internet connection now, please try again</string>\r\n\r\n    <string name=\"submission_success\">Submission successfully</string>\r\n    <string name=\"submission_fail\">Submission failed</string>\r\n\r\n    <string name=\"salonEmail\">Company Email Id</string>\r\n\r\n    <string name=\"appointments\">Appointments</string>\r\n    <string name=\"appointment_history\">History</string>\r\n    <string name=\"transaction_history\">Transaction</string>\r\n    <string name=\"profile\">Profile</string>\r\n\r\n    <string name=\"upcoming_booking\">Upcoming Booking</string>\r\n\r\n    <!-- Booking -->\r\n    <string name=\"newBooking\">New Booking</string>\r\n\r\n    <!-- Payment -->\r\n    <string name=\"payment\">Payment</string>\r\n\r\n    <!-- Staff -->\r\n    <string name=\"staffs\">Staffs</string>\r\n    <string name=\"addNewStaff\">Add New Staff</string>\r\n    <string name=\"editStaff\">Edit Staff</string>\r\n    <string name=\"updateStaff\">Update Staff</string>\r\n    <string name=\"deleteStaff\">Delete Staff</string>\r\n    <string name=\"staff\">Staff</string>\r\n    <string name=\"staff_id\">Staff ID</string>\r\n    <string name=\"staff_name\">Name</string>\r\n    <string name=\"staff_email\">E-mail</string>\r\n    <string name=\"staff_phone\">Phone</string>\r\n    <string name=\"company_id\">Company ID</string>\r\n    <string name=\"company_name\">Company</string>\r\n    <string name=\"tooltip_staff_add\">Add New Staff</string>\r\n    <string name=\"tooltip_staff_update\">Update Staff</string>\r\n    <string name=\"tooltip_staff_delete\">Delete Staff</string>\r\n    <string name=\"tooltip_staff_back\">Back to Staff Page</string>\r\n    <string name=\"confirmation_add_new_staff\">Are you sure to add new this staff?</string>\r\n    <string name=\"confirmation_update_staff\">Are you sure to update this staff?</string>\r\n    <string name=\"confirmation_delete_staff\">Are you sure to delete this staff?</string>\r\n    <string name=\"success_add_new_staff\">New staff has been added successfully</string>\r\n    <string name=\"success_update_staff\">Staff has been updated successfully</string>\r\n    <string name=\"success_delete_staff\">Staff has been deleted successfully</string>\r\n    <string name=\"error_invalid_email\">Your Email Id is invalid</string>\r\n    <string name=\"error_add_new_staff\">Failed to add new staff, please try again</string>\r\n    <string name=\"error_update_staff\">Failed to update staff, please try again</string>\r\n    <string name=\"error_delete_staff\">Failed to delete staff, please try again</string>\r\n\r\n    <!-- Service -->\r\n    <string name=\"services\">Services</string>\r\n    <string name=\"addNewService\">Add New Service</string>\r\n    <string name=\"editService\">Edit Service</string>\r\n    <string name=\"updateService\">Update Service</string>\r\n    <string name=\"deleteService\">Delete Service</string>\r\n    <string name=\"service\">Service</string>\r\n    <string name=\"service_id\">Service ID</string>\r\n    <string name=\"service_name\">Name</string>\r\n    <string name=\"service_price\">Price</string>\r\n    <string name=\"service_price_currency\">RM</string>\r\n    <string name=\"service_duration\">Duration</string>\r\n    <string name=\"service_duration_minutes\">minutes</string>\r\n    <string name=\"category_id\">Category ID</string>\r\n    <string name=\"category_name\">Category</string>\r\n    <string name=\"tooltip_service_add\">Add New Service</string>\r\n    <string name=\"tooltip_service_update\">Update Service</string>\r\n    <string name=\"tooltip_service_delete\">Delete Service</string>\r\n    <string name=\"tooltip_service_back\">Back to Service Page</string>\r\n    <string name=\"confirmation_add_new_service\">Are you sure to add new this service?</string>\r\n    <string name=\"confirmation_update_service\">Are you sure to update this service?</string>\r\n    <string name=\"confirmation_delete_service\">Are you sure to delete this service?</string>\r\n    <string name=\"success_add_new_service\">New service has been added successfully</string>\r\n    <string name=\"success_update_service\">Service has been updated successfully</string>\r\n    <string name=\"success_delete_service\">Service has been deleted successfully</string>\r\n    <string name=\"error_add_new_service\">Failed to add new service, please try again</string>\r\n    <string name=\"error_update_service\">Failed to update service, please try again</string>\r\n    <string name=\"error_delete_service\">Failed to delete service, please try again</string>\r\n\r\n    <!-- Booking -->\r\n    <string name=\"addNewBooking\">Add New Booking</string>\r\n    <string name=\"editBooking\">Edit Booking</string>\r\n    <string name=\"booking_time\">Time</string>\r\n    <string name=\"booking_staff_name\">Staff Name</string>\r\n    <string name=\"booking_client_name\">Client Name</string>\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/res/values/strings.xml	(date 1585372000125)
+@@ -47,7 +47,6 @@
+     <string name="payment">Payment</string>
+ 
+     <!-- Staff -->
+-    <string name="staffs">Staffs</string>
+     <string name="addNewStaff">Add New Staff</string>
+     <string name="editStaff">Edit Staff</string>
+     <string name="updateStaff">Update Staff</string>
+@@ -75,7 +74,6 @@
+     <string name="error_delete_staff">Failed to delete staff, please try again</string>
+ 
+     <!-- Service -->
+-    <string name="services">Services</string>
+     <string name="addNewService">Add New Service</string>
+     <string name="editService">Edit Service</string>
+     <string name="updateService">Update Service</string>
+@@ -84,9 +82,7 @@
+     <string name="service_id">Service ID</string>
+     <string name="service_name">Name</string>
+     <string name="service_price">Price</string>
+-    <string name="service_price_currency">RM</string>
+     <string name="service_duration">Duration</string>
+-    <string name="service_duration_minutes">minutes</string>
+     <string name="category_id">Category ID</string>
+     <string name="category_name">Category</string>
+     <string name="tooltip_service_add">Add New Service</string>
+@@ -102,11 +98,4 @@
+     <string name="error_add_new_service">Failed to add new service, please try again</string>
+     <string name="error_update_service">Failed to update service, please try again</string>
+     <string name="error_delete_service">Failed to delete service, please try again</string>
+-
+-    <!-- Booking -->
+-    <string name="addNewBooking">Add New Booking</string>
+-    <string name="editBooking">Edit Booking</string>
+-    <string name="booking_time">Time</string>
+-    <string name="booking_staff_name">Staff Name</string>
+-    <string name="booking_client_name">Client Name</string>
+ </resources>
+Index: app/src/main/java/com/example/salonbookingapp/Service_Fragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.os.AsyncTask;\r\nimport android.os.Bundle;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.AdapterView;\r\nimport android.widget.ArrayAdapter;\r\nimport android.widget.ListView;\r\nimport android.widget.Spinner;\r\n\r\nimport androidx.fragment.app.Fragment;\r\nimport androidx.fragment.app.FragmentManager;\r\n\r\nimport com.google.android.material.floatingactionbutton.FloatingActionButton;\r\n\r\nimport org.w3c.dom.Document;\r\nimport org.w3c.dom.Element;\r\nimport org.w3c.dom.NodeList;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.Collections;\r\nimport java.util.List;\r\n\r\npublic class Service_Fragment extends Fragment {\r\n\r\n    // URL\r\n    private static final String ASPX_GET_ALL_STAFFS = \"GetAllSalonServices.aspx\";\r\n    private static final String ASPX_GET_ALL_CATEGORIES = \"GetAllCategories.aspx\";\r\n\r\n    // XML nodes for service list\r\n    private static final String XML_NODE_SERVICE_ID = \"ServiceID\";\r\n    public static final String XML_NODE_SERVICE_NAME = \"ServiceName\";\r\n    public static final String XML_NODE_CATEGORY_ID = \"CategoryID\";\r\n    public static final String XML_NODE_CATEGORY_NAME = \"CategoryName\";\r\n    public static final String XML_NODE_SERVICE_PRICE = \"ServicePrice\";\r\n    public static final String XML_NODE_SERVICE_DURATION = \"ServiceDuration\";\r\n\r\n    // Control fields\r\n    private View view;\r\n    private Spinner categorySpinner;\r\n    private ListView listView;\r\n    private FloatingActionButton addNewServiceBtn;\r\n\r\n    // Variables\r\n    private ServiceDbHelper db;\r\n    private ArrayList<Service> services = new ArrayList<>();\r\n    private Service service;\r\n    private int categoryId;\r\n    private CategoryDbHelper categoryDb;\r\n    private List<Category> categories = new ArrayList<>();\r\n\r\n    public Service_Fragment() {\r\n    }\r\n\r\n    @Override\r\n    public View onCreateView(LayoutInflater inflater, ViewGroup container,\r\n                             Bundle savedInstanceState) {\r\n        view = inflater.inflate(R.layout.service_layout, container, false);\r\n\r\n        initViews();\r\n        setListeners();\r\n        showRedirectMessage();\r\n\r\n        return view;\r\n    }\r\n\r\n    @Override\r\n    public void onDestroyView() {\r\n        super.onDestroyView();\r\n    }\r\n\r\n    // Initiate Views\r\n    private void initViews() {\r\n        categorySpinner = view.findViewById(R.id.categorySpinner);\r\n        categorySpinner.requestFocus();\r\n\r\n        listView = view.findViewById(R.id.card_listView_service);\r\n        addNewServiceBtn = view.findViewById(R.id.addNewServiceBtn);\r\n    }\r\n\r\n    private void setListeners() {\r\n        final FragmentManager fragmentManager = getActivity().getSupportFragmentManager();\r\n        final ServiceDetail_Fragment fragment = new ServiceDetail_Fragment();\r\n        final Bundle bundle = new Bundle();\r\n\r\n        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {\r\n            @Override\r\n            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {\r\n                service = services.get(position);\r\n\r\n                bundle.putSerializable(Utils.Bundle_Mode, Utils.Mode.Edit);\r\n                bundle.putInt(Utils.Bundle_ID, service.getServiceId());\r\n                fragment.setArguments(bundle);\r\n\r\n                fragmentManager\r\n                        .beginTransaction()\r\n                        .setCustomAnimations(R.anim.right_enter, R.anim.left_out)\r\n                        .replace(R.id.frameContainer, fragment, Utils.ServiceDetail_Fragment)\r\n                        .commit();\r\n            }\r\n        });\r\n\r\n        addNewServiceBtn.setOnClickListener(new View.OnClickListener() {\r\n            @Override\r\n            public void onClick(View view) {\r\n                bundle.putSerializable(Utils.Bundle_Mode, Utils.Mode.Insert);\r\n                fragment.setArguments(bundle);\r\n\r\n                fragmentManager\r\n                        .beginTransaction()\r\n                        .setCustomAnimations(R.anim.right_enter, R.anim.left_out)\r\n                        .replace(R.id.frameContainer, fragment, Utils.ServiceDetail_Fragment)\r\n                        .commit();\r\n            }\r\n        });\r\n    }\r\n\r\n    private void showRedirectMessage() {\r\n        Bundle bundle = this.getArguments();\r\n\r\n        if (bundle != null) {\r\n            Utils.Task task = (Utils.Task) bundle.getSerializable(Utils.Bundle_Task);\r\n            Boolean status = bundle.getBoolean(Utils.Bundle_Status);\r\n            String message = \"\";\r\n\r\n            if (task == Utils.Task.Submit) {\r\n                if (status == Boolean.TRUE) {\r\n                    message = getString(R.string.success_add_new_service);\r\n                } else {\r\n                    message = getString(R.string.error_add_new_service);\r\n                }\r\n            } else if (task == Utils.Task.Update) {\r\n                if (status == Boolean.TRUE) {\r\n                    message = getString(R.string.success_update_service);\r\n                } else {\r\n                    message = getString(R.string.error_update_service);\r\n                }\r\n            } else if (task == Utils.Task.Delete) {\r\n                if (status == Boolean.TRUE) {\r\n                    message = getString(R.string.success_delete_service);\r\n                } else {\r\n                    message = getString(R.string.error_delete_service);\r\n                }\r\n            }\r\n\r\n            if (message.length() > 0) {\r\n                new CustomToast().Show_Toast_Success(getActivity(), view, message);\r\n            }\r\n        }\r\n\r\n        refreshServiceListData();\r\n    }\r\n\r\n    // Refresh and download all the active services from server\r\n    private void refreshServiceListData() {\r\n        new BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);\r\n    }\r\n\r\n    // Download all the active services from server\r\n    private void downloadServices() {\r\n        XMLParser parser = new XMLParser();\r\n        String url = String.format(\"%1$s%2$s%3$s?submission=%4$s\",\r\n                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_GET_ALL_STAFFS, \"\");\r\n        String xml = parser.getXmlFromUrl(url, true, null, null);\r\n        services = new ArrayList<>();\r\n\r\n        try {\r\n            Document doc = parser.getDomElement(xml);\r\n            NodeList nl = doc.getElementsByTagName(Utils.XML_NODE_DOWNLOAD);\r\n            Element e = (Element) nl.item(0);\r\n            Boolean status = Boolean.valueOf(parser.getValue(e, Utils.XML_NODE_STATUS));\r\n\r\n            if (status == Boolean.TRUE) {\r\n                NodeList nl1 = doc.getElementsByTagName(Utils.XML_NODE_ROW);\r\n                Element e1;\r\n                Service service;\r\n\r\n                // Looping through all item nodes <Row>\r\n                for (int i = 0; i < nl1.getLength(); i++) {\r\n                    e1 = (Element) nl1.item(i);\r\n\r\n                    service = new Service();\r\n\r\n                    // Adding each child node to service object\r\n                    service.setServiceId(Integer.parseInt(parser.getValue(e1, XML_NODE_SERVICE_ID)));\r\n                    service.setServiceName(parser.getValue(e1, XML_NODE_SERVICE_NAME));\r\n                    service.setCategoryId(Integer.parseInt(parser.getValue(e1, XML_NODE_CATEGORY_ID)));\r\n                    service.setCategoryName(parser.getValue(e1, XML_NODE_CATEGORY_NAME));\r\n                    service.setServicePrice(Float.parseFloat(parser.getValue(e1, XML_NODE_SERVICE_PRICE)));\r\n                    service.setServiceDuration(Integer.parseInt(parser.getValue(e1, XML_NODE_SERVICE_DURATION)));\r\n\r\n                    services.add(service);\r\n                }\r\n\r\n                db = new ServiceDbHelper(getContext());\r\n                db.deleteAllServices();\r\n                db.addAllServices(services);\r\n            }\r\n        } catch (Exception e) {\r\n            e.printStackTrace();\r\n        }\r\n\r\n        services = db.getAllServices();\r\n    }\r\n\r\n    // Download all the active categories from server\r\n    private void downloadCategories() {\r\n        XMLParser parser = new XMLParser();\r\n        String url = String.format(\"%1$s%2$s%3$s\",\r\n                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_GET_ALL_CATEGORIES);\r\n        String xml = parser.getXmlFromUrl(url, true, null, null);\r\n\r\n        try {\r\n            Document doc = parser.getDomElement(xml);\r\n            NodeList nl = doc.getElementsByTagName(Utils.XML_NODE_DOWNLOAD);\r\n            Element e = (Element) nl.item(0);\r\n            Boolean status = Boolean.valueOf(parser.getValue(e, Utils.XML_NODE_STATUS));\r\n\r\n            if (status == Boolean.TRUE) {\r\n                NodeList nl1 = doc.getElementsByTagName(Utils.XML_NODE_ROW);\r\n                Element e1;\r\n                Category category;\r\n\r\n                // Looping through all item nodes <Row>\r\n                for (int i = 0; i < nl1.getLength(); i++) {\r\n                    e1 = (Element) nl1.item(i);\r\n\r\n                    category = new Category();\r\n\r\n                    // Adding each child node to service object\r\n                    category.setCategoryId(Integer.parseInt(parser.getValue(e1, XML_NODE_CATEGORY_ID)));\r\n                    category.setCategoryName(parser.getValue(e1, XML_NODE_CATEGORY_NAME));\r\n\r\n                    categories.add(category);\r\n                }\r\n\r\n                categoryDb = new CategoryDbHelper(getContext());\r\n                categoryDb.deleteAllCategories();\r\n                categoryDb.addAllCategories(categories);\r\n            }\r\n        } catch (Exception e) {\r\n            e.printStackTrace();\r\n        }\r\n    }\r\n\r\n    private void setSpinnerData() {\r\n        // Add default option to display all category of services\r\n        categories.add(new Category(0, \"- All -\"));\r\n        //Collections.sort(ArrayList<Category> categories);\r\n        Collections.sort(categories);\r\n\r\n        ArrayAdapter<Category> adapter = new ArrayAdapter<>(getActivity(),\r\n                android.R.layout.simple_spinner_item, categories);\r\n        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);\r\n        // Attaching data adapter to spinner\r\n        categorySpinner.setAdapter(adapter);\r\n        categorySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {\r\n            @Override\r\n            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {\r\n                Category category = (Category) parent.getSelectedItem();\r\n                categoryId = category.getCategoryId();\r\n                updateServiceListData();\r\n            }\r\n\r\n            @Override\r\n            public void onNothingSelected(AdapterView<?> parent) {\r\n            }\r\n        });\r\n    }\r\n\r\n    private void updateServiceListData() {\r\n        if (categoryId == 0) {\r\n            services = db.getAllServices();\r\n        } else {\r\n            services = db.getServicesByCategoryId(categoryId);\r\n        }\r\n        ServicesAdapter adapter = new ServicesAdapter(getActivity(), services);\r\n        listView.setAdapter(adapter);\r\n    }\r\n\r\n    class BackgroundTask extends AsyncTask<String, Integer, String> {\r\n        @Override\r\n        protected String doInBackground(String... param) {\r\n            if (Utils.isNetworkAvailable(getContext())) {\r\n                downloadServices();\r\n                downloadCategories();\r\n            } else {\r\n                db = new ServiceDbHelper(getContext());\r\n                services = db.getAllServices();\r\n            }\r\n\r\n            return null;\r\n        }\r\n\r\n        @Override\r\n        protected void onPostExecute(String param) {\r\n            super.onPostExecute(param);\r\n            ServicesAdapter adapter = new ServicesAdapter(getActivity(), services);\r\n            listView.setAdapter(adapter);\r\n            setSpinnerData();\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/Service_Fragment.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/Service_Fragment.java	(date 1585372000115)
+@@ -20,7 +20,6 @@
+ import org.w3c.dom.NodeList;
+ 
+ import java.util.ArrayList;
+-import java.util.Collections;
+ import java.util.List;
+ 
+ public class Service_Fragment extends Fragment {
+@@ -39,7 +38,6 @@
+ 
+     // Control fields
+     private View view;
+-    private Spinner categorySpinner;
+     private ListView listView;
+     private FloatingActionButton addNewServiceBtn;
+ 
+@@ -47,11 +45,11 @@
+     private ServiceDbHelper db;
+     private ArrayList<Service> services = new ArrayList<>();
+     private Service service;
+-    private int categoryId;
+     private CategoryDbHelper categoryDb;
+     private List<Category> categories = new ArrayList<>();
+ 
+     public Service_Fragment() {
++
+     }
+ 
+     @Override
+@@ -73,9 +71,6 @@
+ 
+     // Initiate Views
+     private void initViews() {
+-        categorySpinner = view.findViewById(R.id.categorySpinner);
+-        categorySpinner.requestFocus();
+-
+         listView = view.findViewById(R.id.card_listView_service);
+         addNewServiceBtn = view.findViewById(R.id.addNewServiceBtn);
+     }
+@@ -155,7 +150,7 @@
+ 
+     // Refresh and download all the active services from server
+     private void refreshServiceListData() {
+-        new BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
++        new Service_Fragment.BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
+     }
+ 
+     // Download all the active services from server
+@@ -211,6 +206,7 @@
+         String url = String.format("%1$s%2$s%3$s",
+                 Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_GET_ALL_CATEGORIES);
+         String xml = parser.getXmlFromUrl(url, true, null, null);
++        // categories = new ArrayList<>();
+ 
+         try {
+             Document doc = parser.getDomElement(xml);
+@@ -243,41 +239,8 @@
+         } catch (Exception e) {
+             e.printStackTrace();
+         }
+-    }
+-
+-    private void setSpinnerData() {
+-        // Add default option to display all category of services
+-        categories.add(new Category(0, "- All -"));
+-        //Collections.sort(ArrayList<Category> categories);
+-        Collections.sort(categories);
+ 
+-        ArrayAdapter<Category> adapter = new ArrayAdapter<>(getActivity(),
+-                android.R.layout.simple_spinner_item, categories);
+-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+-        // Attaching data adapter to spinner
+-        categorySpinner.setAdapter(adapter);
+-        categorySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+-            @Override
+-            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+-                Category category = (Category) parent.getSelectedItem();
+-                categoryId = category.getCategoryId();
+-                updateServiceListData();
+-            }
+-
+-            @Override
+-            public void onNothingSelected(AdapterView<?> parent) {
+-            }
+-        });
+-    }
+-
+-    private void updateServiceListData() {
+-        if (categoryId == 0) {
+-            services = db.getAllServices();
+-        } else {
+-            services = db.getServicesByCategoryId(categoryId);
+-        }
+-        ServicesAdapter adapter = new ServicesAdapter(getActivity(), services);
+-        listView.setAdapter(adapter);
++        // categories = categoryDb.getAllCategories();
+     }
+ 
+     class BackgroundTask extends AsyncTask<String, Integer, String> {
+@@ -299,7 +262,6 @@
+             super.onPostExecute(param);
+             ServicesAdapter adapter = new ServicesAdapter(getActivity(), services);
+             listView.setAdapter(adapter);
+-            setSpinnerData();
+         }
+     }
+ }
+Index: app/src/main/java/com/example/salonbookingapp/Service.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\npublic class Service {\r\n\r\n    private int serviceId;\r\n    private String serviceName;\r\n    private int categoryId;\r\n    private String categoryName;\r\n    private Float servicePrice;\r\n    private int serviceDuration;\r\n\r\n    public Service() {\r\n    }\r\n\r\n    public Service(int serviceId, String serviceName, int categoryId, String categoryName, Float servicePrice, int serviceDuration) {\r\n        this.serviceId = serviceId;\r\n        this.serviceName = serviceName;\r\n        this.categoryId = categoryId;\r\n        this.categoryName = categoryName;\r\n        this.servicePrice = servicePrice;\r\n        this.serviceDuration = serviceDuration;\r\n    }\r\n\r\n    public int getServiceId() {\r\n        return serviceId;\r\n    }\r\n\r\n    public void setServiceId(int serviceId) {\r\n        this.serviceId = serviceId;\r\n    }\r\n\r\n    public String getServiceName() {\r\n        return serviceName;\r\n    }\r\n\r\n    public void setServiceName(String serviceName) {\r\n        this.serviceName = serviceName;\r\n    }\r\n\r\n    public int getCategoryId() {\r\n        return categoryId;\r\n    }\r\n\r\n    public void setCategoryId(int categoryId) {\r\n        this.categoryId = categoryId;\r\n    }\r\n\r\n    public String getCategoryName() {\r\n        return categoryName;\r\n    }\r\n\r\n    public void setCategoryName(String categoryName) {\r\n        this.categoryName = categoryName;\r\n    }\r\n\r\n    public Float getServicePrice() {\r\n        return servicePrice;\r\n    }\r\n\r\n    public void setServicePrice(Float servicePrice) {\r\n        this.servicePrice = servicePrice;\r\n    }\r\n\r\n    public int getServiceDuration() {\r\n        return serviceDuration;\r\n    }\r\n\r\n    public void setServiceDuration(int serviceDuration) {\r\n        this.serviceDuration = serviceDuration;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/Service.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/Service.java	(date 1585372000113)
+@@ -68,4 +68,18 @@
+     public void setServiceDuration(int serviceDuration) {
+         this.serviceDuration = serviceDuration;
+     }
++
++    @Override
++    public String toString() {
++        StringBuilder sb = new StringBuilder();
++
++        sb.append("<Row>");
++        sb.append("<ServiceID>").append(serviceId).append("</ServiceID>");
++        sb.append("<ServiceName>").append(serviceName).append("</ServiceName>");
++        sb.append("<ServicePrice>").append(servicePrice).append("</ServicePrice>");
++        sb.append("<ServiceDuration>").append(serviceDuration).append("</ServiceDuration>");
++        sb.append("</Row>");
++
++        return sb.toString();
++    }
+ }
+Index: app/src/main/java/com/example/salonbookingapp/ServiceDbHelper.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.content.ContentValues;\r\nimport android.content.Context;\r\nimport android.database.Cursor;\r\nimport android.database.sqlite.SQLiteDatabase;\r\nimport android.database.sqlite.SQLiteOpenHelper;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\npublic class ServiceDbHelper extends SQLiteOpenHelper {\r\n\r\n    // Database Version\r\n    private static final int DATABASE_VERSION = 1;\r\n\r\n    // Database Name\r\n    public static final String DATABASE_NAME = \"salon_services.db\";\r\n\r\n    // Table name\r\n    private static final String TABLE_NAME = \"salon_services\";\r\n\r\n    // Column names\r\n    public static final String COLUMN_SERVICE_ID = \"service_id\";\r\n    public static final String COLUMN_SERVICE_NAME = \"service_name\";\r\n    public static final String COLUMN_CATEGORY_ID = \"category_id\";\r\n    public static final String COLUMN_CATEGORY_NAME = \"category_name\";\r\n    public static final String COLUMN_SERVICE_PRICE = \"service_price\";\r\n    public static final String COLUMN_SERVICE_DURATION = \"service_duration\";\r\n\r\n    // Create table SQL query\r\n    public static final String CREATE_TABLE =\r\n            \"CREATE TABLE \" + TABLE_NAME + \"(\"\r\n                    + COLUMN_SERVICE_ID + \" INTEGER PRIMARY KEY,\"\r\n                    + COLUMN_SERVICE_NAME + \" TEXT,\"\r\n                    + COLUMN_CATEGORY_ID + \" INTEGER,\"\r\n                    + COLUMN_CATEGORY_NAME + \" TEXT,\"\r\n                    + COLUMN_SERVICE_PRICE + \" REAL,\"\r\n                    + COLUMN_SERVICE_DURATION + \" INTEGER\"\r\n                    + \")\";\r\n\r\n    private Context context;\r\n\r\n    public ServiceDbHelper(Context context) {\r\n        super(context, DATABASE_NAME, null, DATABASE_VERSION);\r\n        this.context = context;\r\n    }\r\n\r\n    // Creating Tables\r\n    @Override\r\n    public void onCreate(SQLiteDatabase db) {\r\n        // create service table\r\n        db.execSQL(CREATE_TABLE);\r\n    }\r\n\r\n    // Upgrading database\r\n    @Override\r\n    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {\r\n        // Drop older table if existed\r\n        db.execSQL(\"DROP TABLE IF EXISTS \" + TABLE_NAME);\r\n\r\n        // Create tables again\r\n        onCreate(db);\r\n    }\r\n\r\n    // Insert a new service\r\n    public long addService(Service service) {\r\n        // Get writable database as we want to write data\r\n        SQLiteDatabase db = this.getWritableDatabase();\r\n\r\n        ContentValues values = new ContentValues();\r\n        values.put(COLUMN_SERVICE_ID, service.getServiceId());\r\n        values.put(COLUMN_SERVICE_NAME, service.getServiceName());\r\n        values.put(COLUMN_CATEGORY_ID, service.getCategoryId());\r\n        values.put(COLUMN_CATEGORY_NAME, service.getCategoryName());\r\n        values.put(COLUMN_SERVICE_PRICE, service.getServicePrice());\r\n        values.put(COLUMN_SERVICE_DURATION, service.getServiceDuration());\r\n\r\n        // Insert row\r\n        long id = db.insert(TABLE_NAME, null, values);\r\n\r\n        // Close db connection\r\n        db.close();\r\n\r\n        // Return newly inserted row id\r\n        return id;\r\n    }\r\n\r\n    // Insert a new list of services\r\n    public void addAllServices(List<Service> services) {\r\n        SQLiteDatabase db = getWritableDatabase();\r\n\r\n        for (Service service : services) {\r\n            ContentValues values = new ContentValues();\r\n\r\n            values.put(COLUMN_SERVICE_ID, service.getServiceId());\r\n            values.put(COLUMN_SERVICE_NAME, service.getServiceName());\r\n            values.put(COLUMN_CATEGORY_ID, service.getCategoryId());\r\n            values.put(COLUMN_CATEGORY_NAME, service.getCategoryName());\r\n            values.put(COLUMN_SERVICE_PRICE, service.getServicePrice());\r\n            values.put(COLUMN_SERVICE_DURATION, service.getServiceDuration());\r\n\r\n            db.insert(TABLE_NAME, null, values);\r\n        }\r\n\r\n        // Close db connection\r\n        db.close();\r\n    }\r\n\r\n    // Get a service by service ID\r\n    public Service getServiceById(int id) {\r\n        // Get readable database as we are not inserting anything\r\n        SQLiteDatabase db = this.getReadableDatabase();\r\n\r\n        Cursor cursor = db.query(TABLE_NAME,\r\n                new String[]{\r\n                        COLUMN_SERVICE_ID, COLUMN_SERVICE_NAME, COLUMN_CATEGORY_ID,\r\n                        COLUMN_CATEGORY_NAME, COLUMN_SERVICE_PRICE, COLUMN_SERVICE_DURATION\r\n                },\r\n                COLUMN_SERVICE_ID + \"=?\",\r\n                new String[]{String.valueOf(id)}, null, null, null, null);\r\n\r\n        if (cursor != null) {\r\n            cursor.moveToFirst();\r\n        }\r\n\r\n        // Prepare service object\r\n        Service service = new Service(\r\n                cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_ID)),\r\n                cursor.getString(cursor.getColumnIndex(COLUMN_SERVICE_NAME)),\r\n                cursor.getInt(cursor.getColumnIndex(COLUMN_CATEGORY_ID)),\r\n                cursor.getString(cursor.getColumnIndex(COLUMN_CATEGORY_NAME)),\r\n                cursor.getFloat(cursor.getColumnIndex(COLUMN_SERVICE_PRICE)),\r\n                cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_DURATION)));\r\n\r\n        // Close the db connection\r\n        cursor.close();\r\n\r\n        // Return service\r\n        return service;\r\n    }\r\n\r\n    // Get the list of services by category ID\r\n    public ArrayList<Service> getServicesByCategoryId(int id) {\r\n        ArrayList<Service> services = new ArrayList<>();\r\n\r\n        String selectQuery = String.format(\"SELECT * FROM %1$s WHERE %2$s = %3$s ORDER BY %4$s ASC\",\r\n                TABLE_NAME, COLUMN_CATEGORY_ID, id, COLUMN_CATEGORY_NAME);\r\n\r\n        // Get readable database as we are not inserting anything\r\n        SQLiteDatabase db = this.getReadableDatabase();\r\n        Cursor cursor = db.rawQuery(selectQuery, null);\r\n\r\n        // Looping through all rows and adding to list\r\n        if (cursor.moveToFirst()) {\r\n            do {\r\n                Service service = new Service();\r\n                service.setServiceId(cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_ID)));\r\n                service.setServiceName(cursor.getString(cursor.getColumnIndex(COLUMN_SERVICE_NAME)));\r\n                service.setCategoryId(cursor.getInt(cursor.getColumnIndex(COLUMN_CATEGORY_ID)));\r\n                service.setCategoryName(cursor.getString(cursor.getColumnIndex(COLUMN_CATEGORY_NAME)));\r\n                service.setServicePrice(cursor.getFloat(cursor.getColumnIndex(COLUMN_SERVICE_PRICE)));\r\n                service.setServiceDuration(cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_DURATION)));\r\n\r\n                services.add(service);\r\n            } while (cursor.moveToNext());\r\n        }\r\n\r\n        // Close the db connection\r\n        cursor.close();\r\n\r\n        // Return list of services\r\n        return services;\r\n    }\r\n\r\n    // Get all list of services\r\n    public ArrayList<Service> getAllServices() {\r\n        ArrayList<Service> services = new ArrayList<>();\r\n\r\n        // Select All Query\r\n        String selectQuery = String.format(\"SELECT * FROM %1$s ORDER BY %2$s ASC\",\r\n                TABLE_NAME, COLUMN_SERVICE_ID);\r\n\r\n        SQLiteDatabase db = this.getWritableDatabase();\r\n        Cursor cursor = db.rawQuery(selectQuery, null);\r\n\r\n        // Looping through all rows and adding to list\r\n        if (cursor.moveToFirst()) {\r\n            do {\r\n                Service service = new Service();\r\n                service.setServiceId(cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_ID)));\r\n                service.setServiceName(cursor.getString(cursor.getColumnIndex(COLUMN_SERVICE_NAME)));\r\n                service.setCategoryId(cursor.getInt(cursor.getColumnIndex(COLUMN_CATEGORY_ID)));\r\n                service.setCategoryName(cursor.getString(cursor.getColumnIndex(COLUMN_CATEGORY_NAME)));\r\n                service.setServicePrice(cursor.getFloat(cursor.getColumnIndex(COLUMN_SERVICE_PRICE)));\r\n                service.setServiceDuration(cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_DURATION)));\r\n\r\n                services.add(service);\r\n            } while (cursor.moveToNext());\r\n        }\r\n\r\n        // Close db connection\r\n        db.close();\r\n\r\n        // Return services list\r\n        return services;\r\n    }\r\n\r\n    // Delete all services\r\n    public void deleteAllServices() {\r\n        SQLiteDatabase db = this.getWritableDatabase();\r\n\r\n        // Deleting row\r\n        db.delete(TABLE_NAME, null, null);\r\n        db.close();\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/ServiceDbHelper.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/ServiceDbHelper.java	(date 1585372000114)
+@@ -140,39 +140,6 @@
+         return service;
+     }
+ 
+-    // Get the list of services by category ID
+-    public ArrayList<Service> getServicesByCategoryId(int id) {
+-        ArrayList<Service> services = new ArrayList<>();
+-
+-        String selectQuery = String.format("SELECT * FROM %1$s WHERE %2$s = %3$s ORDER BY %4$s ASC",
+-                TABLE_NAME, COLUMN_CATEGORY_ID, id, COLUMN_CATEGORY_NAME);
+-
+-        // Get readable database as we are not inserting anything
+-        SQLiteDatabase db = this.getReadableDatabase();
+-        Cursor cursor = db.rawQuery(selectQuery, null);
+-
+-        // Looping through all rows and adding to list
+-        if (cursor.moveToFirst()) {
+-            do {
+-                Service service = new Service();
+-                service.setServiceId(cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_ID)));
+-                service.setServiceName(cursor.getString(cursor.getColumnIndex(COLUMN_SERVICE_NAME)));
+-                service.setCategoryId(cursor.getInt(cursor.getColumnIndex(COLUMN_CATEGORY_ID)));
+-                service.setCategoryName(cursor.getString(cursor.getColumnIndex(COLUMN_CATEGORY_NAME)));
+-                service.setServicePrice(cursor.getFloat(cursor.getColumnIndex(COLUMN_SERVICE_PRICE)));
+-                service.setServiceDuration(cursor.getInt(cursor.getColumnIndex(COLUMN_SERVICE_DURATION)));
+-
+-                services.add(service);
+-            } while (cursor.moveToNext());
+-        }
+-
+-        // Close the db connection
+-        cursor.close();
+-
+-        // Return list of services
+-        return services;
+-    }
+-
+     // Get all list of services
+     public ArrayList<Service> getAllServices() {
+         ArrayList<Service> services = new ArrayList<>();
+Index: app/src/main/java/com/example/salonbookingapp/ServiceDetail_Fragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.app.AlertDialog;\r\nimport android.content.DialogInterface;\r\nimport android.os.AsyncTask;\r\nimport android.os.Bundle;\r\nimport android.util.Log;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.View.OnClickListener;\r\nimport android.view.ViewGroup;\r\nimport android.widget.AdapterView;\r\nimport android.widget.ArrayAdapter;\r\nimport android.widget.EditText;\r\nimport android.widget.Spinner;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.fragment.app.Fragment;\r\nimport androidx.fragment.app.FragmentManager;\r\n\r\nimport com.google.android.material.floatingactionbutton.FloatingActionButton;\r\n\r\nimport java.util.ArrayList;\r\nimport java.util.List;\r\n\r\npublic class ServiceDetail_Fragment extends Fragment implements OnClickListener {\r\n\r\n    // URLs\r\n    private static final String ASPX_SUBMIT_SALON_SREVICE = \"SubmitSalonService.aspx\";\r\n    private static final String ASPX_UPDATE_SALON_SREVICE = \"UpdateSalonService.aspx\";\r\n    private static final String ASPX_DELETE_SALON_SREVICE = \"DeleteSalonService.aspx\";\r\n\r\n    // Control fields\r\n    private View view;\r\n    private TextView serviceTitle;\r\n    private Spinner categorySpinner;\r\n    private EditText serviceName;\r\n    private EditText servicePrice;\r\n    private EditText serviceDuration;\r\n    private static FloatingActionButton addServiceBtn;\r\n    private static FloatingActionButton updateServiceBtn;\r\n    private static FloatingActionButton deleteServiceBtn;\r\n    private static FloatingActionButton backServiceBtn;\r\n\r\n    // Variables\r\n    private Utils.Task task;\r\n    private Boolean status, isNetworkConnected;\r\n    private int serviceId, categoryId;\r\n    private CategoryDbHelper db;\r\n    private List<Category> categories = new ArrayList<>();\r\n    private Category category;\r\n\r\n    public ServiceDetail_Fragment() {\r\n    }\r\n\r\n    @Override\r\n    public View onCreateView(LayoutInflater inflater, ViewGroup container,\r\n                             Bundle savedInstanceState) {\r\n        view = inflater.inflate(R.layout.servicedetail_layout, container, false);\r\n\r\n        initViews();\r\n        setListeners();\r\n\r\n        return view;\r\n    }\r\n\r\n    // Initialize all views\r\n    private void initViews() {\r\n        serviceTitle = view.findViewById(R.id.serviceTitle);\r\n\r\n        categorySpinner = view.findViewById(R.id.spinner);\r\n        categorySpinner.requestFocus();\r\n\r\n        serviceName = view.findViewById(R.id.serviceName);\r\n        servicePrice = view.findViewById(R.id.servicePrice);\r\n        serviceDuration = view.findViewById(R.id.serviceDuration);\r\n\r\n        addServiceBtn = view.findViewById(R.id.addServiceBtn);\r\n\r\n        updateServiceBtn = view.findViewById(R.id.updateServiceBtn);\r\n        deleteServiceBtn = view.findViewById(R.id.deleteServiceBtn);\r\n        backServiceBtn = view.findViewById(R.id.backServiceBtn);\r\n\r\n        // Generate spinner list\r\n        db = new CategoryDbHelper(getContext());\r\n        categories = db.getAllCategories();\r\n\r\n        ArrayAdapter<Category> adapter = new ArrayAdapter<>(getActivity(),\r\n                android.R.layout.simple_spinner_item, categories);\r\n        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);\r\n        // Attaching data adapter to spinner\r\n        categorySpinner.setAdapter(adapter);\r\n        categorySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {\r\n            @Override\r\n            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {\r\n                category = (Category) parent.getSelectedItem();\r\n                categoryId = category.getCategoryId();\r\n            }\r\n\r\n            @Override\r\n            public void onNothingSelected(AdapterView<?> parent) {\r\n            }\r\n        });\r\n\r\n        showData();\r\n    }\r\n\r\n    // Set Listeners\r\n    private void setListeners() {\r\n        addServiceBtn.setOnClickListener(this);\r\n        updateServiceBtn.setOnClickListener(this);\r\n        deleteServiceBtn.setOnClickListener(this);\r\n        backServiceBtn.setOnClickListener(this);\r\n    }\r\n\r\n    // Toggle buttons and display selected staff's data if it is edit mode\r\n    private void showData() {\r\n        Bundle bundle = this.getArguments();\r\n\r\n        if (bundle != null) {\r\n            Utils.Mode mode = (Utils.Mode) bundle.getSerializable(Utils.Bundle_Mode);\r\n\r\n            if (mode == Utils.Mode.Insert) {\r\n                updateServiceBtn.setVisibility(View.GONE);\r\n                deleteServiceBtn.setVisibility(View.GONE);\r\n            } else {\r\n                serviceTitle.setText(getString(R.string.editService));\r\n\r\n                serviceId = bundle.getInt(Utils.Bundle_ID);\r\n\r\n                if (serviceId > 0) {\r\n                    ServiceDbHelper serviceDb = new ServiceDbHelper(getContext());\r\n                    Service service = serviceDb.getServiceById(serviceId);\r\n\r\n                    serviceName.setText(service.getServiceName());\r\n                    servicePrice.setText(String.valueOf(service.getServicePrice()));\r\n                    serviceDuration.setText(Integer.toString(service.getServiceDuration()));\r\n\r\n                    // Set selected category to spinner\r\n                    Category cat = new Category(service.getCategoryId(), service.getCategoryName());\r\n                    categorySpinner.setSelection(getIndex(categorySpinner, cat));\r\n                }\r\n\r\n                addServiceBtn.setVisibility(View.GONE);\r\n            }\r\n        }\r\n    }\r\n\r\n    private int getIndex(Spinner spinner, Category cat) {\r\n        for (int i = 0; i < spinner.getCount(); i++) {\r\n            if (spinner.getItemAtPosition(i).toString().equalsIgnoreCase(cat.getCategoryName())) {\r\n                return i;\r\n            }\r\n        }\r\n\r\n        return 0;\r\n    }\r\n\r\n    @Override\r\n    public void onClick(View v) {\r\n        switch (v.getId()) {\r\n            case R.id.addServiceBtn:\r\n                // Add service\r\n                task = Utils.Task.Submit;\r\n\r\n                // Call checkValidation method\r\n                if (checkValidation() == Boolean.TRUE) {\r\n                    doSubmission(getString(R.string.confirmation_add_new_service),\r\n                            Utils.Task.Submit.toString());\r\n                }\r\n                break;\r\n\r\n            case R.id.updateServiceBtn:\r\n                // Update service\r\n                task = Utils.Task.Update;\r\n\r\n                // Call checkValidation method\r\n                if (checkValidation() == Boolean.TRUE) {\r\n                    doSubmission(getString(R.string.confirmation_update_service),\r\n                            Utils.Task.Update.toString());\r\n                }\r\n                break;\r\n\r\n            case R.id.deleteServiceBtn:\r\n                // Delete service\r\n                task = Utils.Task.Delete;\r\n\r\n                doSubmission(getString(R.string.confirmation_delete_service),\r\n                        Utils.Task.Delete.toString());\r\n                break;\r\n\r\n            case R.id.backServiceBtn:\r\n                // Back to service page\r\n                FragmentManager fragment = getActivity().getSupportFragmentManager();\r\n                fragment\r\n                        .beginTransaction()\r\n                        .setCustomAnimations(R.anim.left_enter, R.anim.right_out)\r\n                        .replace(R.id.frameContainer, new Service_Fragment(),\r\n                                Utils.Service_Fragment)\r\n                        .commit();\r\n                break;\r\n        }\r\n    }\r\n\r\n    // Check Validation Method\r\n    private Boolean checkValidation() {\r\n        Boolean validate = Boolean.TRUE;\r\n\r\n        // Get all edit text texts\r\n        String name = serviceName.getText().toString();\r\n        String price = servicePrice.getText().toString();\r\n        String duration = serviceDuration.getText().toString();\r\n\r\n        // Check if all strings are null or not\r\n        if (name.equals(\"\") || name.length() == 0\r\n                || price.equals(\"\") || price.length() == 0\r\n                || duration.equals(\"\") || duration.length() == 0) {\r\n\r\n            validate = Boolean.FALSE;\r\n            new CustomToast().Show_Toast(getActivity(), view, getString(R.string.all_fields_are_required));\r\n        }\r\n\r\n        return validate;\r\n    }\r\n\r\n    private void doSubmission(String message, final String taskSelection) {\r\n        new AlertDialog.Builder(getContext())\r\n                .setTitle(getString(R.string.confirmation))\r\n                .setMessage(message)\r\n                .setIcon(android.R.drawable.ic_dialog_info)\r\n                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {\r\n                    public void onClick(DialogInterface dialog, int whichButton) {\r\n                        new BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,\r\n                                taskSelection);\r\n                    }\r\n                })\r\n                .setNegativeButton(android.R.string.no, null).show();\r\n    }\r\n\r\n    private void addService() {\r\n        try {\r\n            String url = String.format(\"%1$s%2$s%3$s?service=%4$s&price=%5$s&duration=%6$s&categoryID=%7$s\",\r\n                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_SUBMIT_SALON_SREVICE,\r\n                    serviceName.getText().toString(),\r\n                    servicePrice.getText().toString(),\r\n                    serviceDuration.getText().toString(),\r\n                    categoryId);\r\n\r\n            XMLParser parser = new XMLParser();\r\n            status = parser.httpParamSubmission(url);\r\n        } catch (Exception e) {\r\n            status = Boolean.FALSE;\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n    }\r\n\r\n    private void updateService() {\r\n        try {\r\n            String url = String.format(\"%1$s%2$s%3$s?id=%4$s&service=%5$s&price=%6$s&duration=%7$s&categoryID=%8$s\",\r\n                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_UPDATE_SALON_SREVICE,\r\n                    serviceId,\r\n                    serviceName.getText().toString(),\r\n                    servicePrice.getText().toString(),\r\n                    serviceDuration.getText().toString(),\r\n                    categoryId);\r\n\r\n            XMLParser parser = new XMLParser();\r\n        status = parser.httpParamSubmission(url);\r\n        } catch (Exception e) {\r\n            status = Boolean.FALSE;\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n    }\r\n\r\n    private void deleteService() {\r\n        try {\r\n            String url = String.format(\"%1$s%2$s%3$s?id=%4$s\",\r\n                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_DELETE_SALON_SREVICE,\r\n                    serviceId);\r\n\r\n            XMLParser parser = new XMLParser();\r\n            status = parser.httpParamSubmission(url);\r\n        } catch (Exception e) {\r\n            status = Boolean.FALSE;\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n    }\r\n\r\n    class BackgroundTask extends AsyncTask<String, Integer, String> {\r\n        @Override\r\n        protected String doInBackground(String... param) {\r\n            isNetworkConnected = Utils.isNetworkAvailable(getContext());\r\n\r\n            if (isNetworkConnected == Boolean.TRUE) {\r\n                if (param[0].equals(Utils.Task.Submit.toString())) {\r\n                    addService();\r\n                } else if (param[0].equals(Utils.Task.Update.toString())) {\r\n                    updateService();\r\n                } else if (param[0].equals(Utils.Task.Delete.toString())) {\r\n                    deleteService();\r\n                }\r\n            }\r\n\r\n            return null;\r\n        }\r\n\r\n        @Override\r\n        protected void onPostExecute(String s) {\r\n            super.onPostExecute(s);\r\n\r\n            if (isNetworkConnected == Boolean.TRUE) {\r\n                Bundle bundle = new Bundle();\r\n                bundle.putSerializable(Utils.Bundle_Task, task);\r\n                bundle.putBoolean(Utils.Bundle_Status, status);\r\n                bundle.putInt(Utils.Bundle_ID, categoryId);\r\n\r\n                Service_Fragment fragment = new Service_Fragment();\r\n                fragment.setArguments(bundle);\r\n\r\n                getActivity().getSupportFragmentManager()\r\n                        .beginTransaction()\r\n                        .setCustomAnimations(R.anim.left_enter, R.anim.right_out)\r\n                        .replace(R.id.frameContainer, fragment, Utils.Service_Fragment)\r\n                        .commit();\r\n            } else {\r\n                new CustomToast().Show_Toast(getActivity(), view, getString(R.string.error_no_network));\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/ServiceDetail_Fragment.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/ServiceDetail_Fragment.java	(date 1585372000114)
+@@ -14,22 +14,32 @@
+ import android.widget.EditText;
+ import android.widget.Spinner;
+ import android.widget.TextView;
++import android.widget.Toast;
+ 
+ import androidx.fragment.app.Fragment;
+ import androidx.fragment.app.FragmentManager;
+ 
+ import com.google.android.material.floatingactionbutton.FloatingActionButton;
+ 
++import org.w3c.dom.Document;
++import org.w3c.dom.Element;
++import org.w3c.dom.NodeList;
++
+ import java.util.ArrayList;
+ import java.util.List;
+ 
+ public class ServiceDetail_Fragment extends Fragment implements OnClickListener {
+ 
+     // URLs
++    private static final String ASPX_GET_ALL_CATEGORIES = "GetAllCategories.aspx";
+     private static final String ASPX_SUBMIT_SALON_SREVICE = "SubmitSalonService.aspx";
+     private static final String ASPX_UPDATE_SALON_SREVICE = "UpdateSalonService.aspx";
+     private static final String ASPX_DELETE_SALON_SREVICE = "DeleteSalonService.aspx";
+ 
++    // XML nodes for category list
++    public static final String XML_NODE_CATEGORY_ID = "CategoryID";
++    public static final String XML_NODE_CATEGORY_NAME = "CategoryName";
++
+     // Control fields
+     private View view;
+     private TextView serviceTitle;
+@@ -47,10 +57,12 @@
+     private Boolean status, isNetworkConnected;
+     private int serviceId, categoryId;
+     private CategoryDbHelper db;
++    private ArrayAdapter<Category> adapter;
+     private List<Category> categories = new ArrayList<>();
+     private Category category;
+ 
+     public ServiceDetail_Fragment() {
++
+     }
+ 
+     @Override
+@@ -66,9 +78,7 @@
+ 
+     // Initialize all views
+     private void initViews() {
+-        serviceTitle = view.findViewById(R.id.serviceTitle);
+-
+-        categorySpinner = view.findViewById(R.id.spinner);
++        categorySpinner = view.findViewById(R.id.categorySpinner);
+         categorySpinner.requestFocus();
+ 
+         serviceName = view.findViewById(R.id.serviceName);
+@@ -81,14 +91,14 @@
+         deleteServiceBtn = view.findViewById(R.id.deleteServiceBtn);
+         backServiceBtn = view.findViewById(R.id.backServiceBtn);
+ 
+-        // Generate spinner list
+         db = new CategoryDbHelper(getContext());
+         categories = db.getAllCategories();
+ 
+         ArrayAdapter<Category> adapter = new ArrayAdapter<>(getActivity(),
+                 android.R.layout.simple_spinner_item, categories);
++        // Drop down layout style - list view with radio button
+         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+-        // Attaching data adapter to spinner
++        // attaching data adapter to spinner
+         categorySpinner.setAdapter(adapter);
+         categorySpinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+             @Override
+@@ -113,7 +123,6 @@
+         backServiceBtn.setOnClickListener(this);
+     }
+ 
+-    // Toggle buttons and display selected staff's data if it is edit mode
+     private void showData() {
+         Bundle bundle = this.getArguments();
+ 
+@@ -124,8 +133,6 @@
+                 updateServiceBtn.setVisibility(View.GONE);
+                 deleteServiceBtn.setVisibility(View.GONE);
+             } else {
+-                serviceTitle.setText(getString(R.string.editService));
+-
+                 serviceId = bundle.getInt(Utils.Bundle_ID);
+ 
+                 if (serviceId > 0) {
+@@ -136,7 +143,10 @@
+                     servicePrice.setText(String.valueOf(service.getServicePrice()));
+                     serviceDuration.setText(Integer.toString(service.getServiceDuration()));
+ 
+-                    // Set selected category to spinner
++                    // downloadCategories();
++                    db = new CategoryDbHelper(getContext());
++                    categories = db.getAllCategories();
++
+                     Category cat = new Category(service.getCategoryId(), service.getCategoryName());
+                     categorySpinner.setSelection(getIndex(categorySpinner, cat));
+                 }
+@@ -152,7 +162,7 @@
+                 return i;
+             }
+         }
+-
++        // Check for this when you set the position.
+         return 0;
+     }
+ 
+@@ -174,6 +184,8 @@
+                 // Update service
+                 task = Utils.Task.Update;
+ 
++                //categoryId = 2;
++
+                 // Call checkValidation method
+                 if (checkValidation() == Boolean.TRUE) {
+                     doSubmission(getString(R.string.confirmation_update_service),
+@@ -206,7 +218,7 @@
+     private Boolean checkValidation() {
+         Boolean validate = Boolean.TRUE;
+ 
+-        // Get all edit text texts
++        // Get all edittext texts
+         String name = serviceName.getText().toString();
+         String price = servicePrice.getText().toString();
+         String duration = serviceDuration.getText().toString();
+@@ -230,64 +242,75 @@
+                 .setIcon(android.R.drawable.ic_dialog_info)
+                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                     public void onClick(DialogInterface dialog, int whichButton) {
++                        // if (Utils.isNetworkAvailable(getContext())) {
+                         new BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,
+                                 taskSelection);
++                        /*} else {
++                            new CustomToast().Show_Toast(getActivity(), view, getString(R.string.error_no_network));
++                        }*/
+                     }
+                 })
+                 .setNegativeButton(android.R.string.no, null).show();
+     }
+ 
+     private void addService() {
+-        try {
+-            String url = String.format("%1$s%2$s%3$s?service=%4$s&price=%5$s&duration=%6$s&categoryID=%7$s",
+-                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_SUBMIT_SALON_SREVICE,
+-                    serviceName.getText().toString(),
+-                    servicePrice.getText().toString(),
+-                    serviceDuration.getText().toString(),
+-                    categoryId);
++        String url = String.format("%1$s%2$s%3$s?service=%4$s&price=%5$s&duration=%6$s&categoryID=%7$s",
++                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_SUBMIT_SALON_SREVICE,
++                serviceName.getText().toString(),
++                servicePrice.getText().toString(),
++                serviceDuration.getText().toString(),
++                categoryId);
+ 
+-            XMLParser parser = new XMLParser();
+-            status = parser.httpParamSubmission(url);
+-        } catch (Exception e) {
+-            status = Boolean.FALSE;
+-            e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
+-        }
++        XMLParser parser = new XMLParser();
++        status = parser.httpParamSubmission(url);
+     }
+ 
+     private void updateService() {
+-        try {
+-            String url = String.format("%1$s%2$s%3$s?id=%4$s&service=%5$s&price=%6$s&duration=%7$s&categoryID=%8$s",
+-                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_UPDATE_SALON_SREVICE,
+-                    serviceId,
+-                    serviceName.getText().toString(),
+-                    servicePrice.getText().toString(),
+-                    serviceDuration.getText().toString(),
+-                    categoryId);
++        String url = String.format("%1$s%2$s%3$s?id=%4$s&service=%5$s&price=%6$s&duration=%7$s&categoryID=%8$s",
++                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_UPDATE_SALON_SREVICE,
++                serviceId,
++                serviceName.getText().toString(),
++                servicePrice.getText().toString(),
++                serviceDuration.getText().toString(),
++                categoryId);
+ 
+-            XMLParser parser = new XMLParser();
++        XMLParser parser = new XMLParser();
+         status = parser.httpParamSubmission(url);
+-        } catch (Exception e) {
+-            status = Boolean.FALSE;
+-            e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
+-        }
+     }
+ 
+     private void deleteService() {
+-        try {
+-            String url = String.format("%1$s%2$s%3$s?id=%4$s",
+-                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_DELETE_SALON_SREVICE,
+-                    serviceId);
++        String url = String.format("%1$s%2$s%3$s?id=%4$s",
++                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_DELETE_SALON_SREVICE,
++                serviceId);
+ 
+-            XMLParser parser = new XMLParser();
+-            status = parser.httpParamSubmission(url);
+-        } catch (Exception e) {
+-            status = Boolean.FALSE;
+-            e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
++        XMLParser parser = new XMLParser();
++        status = parser.httpParamSubmission(url);
++    }
++
++    /*class CategoryBackgroundTask extends AsyncTask<String, Integer, String> {
++        @Override
++        protected String doInBackground(String... param) {
++            isNetworkConnected = Utils.isNetworkAvailable(getContext());
++
++            if (isNetworkConnected == Boolean.TRUE) {
++                downloadCategories();
++            }
++
++            return null;
+         }
+-    }
++
++        @Override
++        protected void onPostExecute(String s) {
++            super.onPostExecute(s);
++            adapter = new ArrayAdapter<>(getActivity(),
++                    android.R.layout.simple_spinner_item, categories);
++            // Drop down layout style - list view with radio button
++            adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
++            // attaching data adapter to spinner
++            categorySpinner.setAdapter(adapter);
++        }
++    }*/
++
+ 
+     class BackgroundTask extends AsyncTask<String, Integer, String> {
+         @Override
+Index: app/src/main/java/com/example/salonbookingapp/Category.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\npublic class Category implements Comparable<Category> {\r\n\r\n    private int categoryId;\r\n    private String categoryName;\r\n\r\n    public Category() {\r\n    }\r\n\r\n    public Category(int categoryId, String categoryName) {\r\n        this.categoryId = categoryId;\r\n        this.categoryName = categoryName;\r\n    }\r\n\r\n    public int getCategoryId() {\r\n        return categoryId;\r\n    }\r\n\r\n    public void setCategoryId(int categoryId) {\r\n        this.categoryId = categoryId;\r\n    }\r\n\r\n    public String getCategoryName() {\r\n        return categoryName;\r\n    }\r\n\r\n    public void setCategoryName(String categoryName) {\r\n        this.categoryName = categoryName;\r\n    }\r\n\r\n    @Override\r\n    public String toString() {\r\n        return categoryName;\r\n    }\r\n\r\n    @Override\r\n    public int compareTo(Category o) {\r\n        return this.getCategoryName().compareTo(o.getCategoryName());\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/Category.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/Category.java	(date 1585372000112)
+@@ -1,6 +1,6 @@
+ package com.example.salonbookingapp;
+ 
+-public class Category implements Comparable<Category> {
++public class Category {
+ 
+     private int categoryId;
+     private String categoryName;
+@@ -30,12 +30,7 @@
+     }
+ 
+     @Override
+-    public String toString() {
++    public String toString () {
+         return categoryName;
+     }
+-
+-    @Override
+-    public int compareTo(Category o) {
+-        return this.getCategoryName().compareTo(o.getCategoryName());
+-    }
+ }
+Index: app/src/main/java/com/example/salonbookingapp/StaffDetail_Fragment.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.app.AlertDialog;\r\nimport android.content.DialogInterface;\r\nimport android.os.AsyncTask;\r\nimport android.os.Bundle;\r\nimport android.util.Log;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.View.OnClickListener;\r\nimport android.view.ViewGroup;\r\nimport android.widget.EditText;\r\nimport android.widget.TextView;\r\n\r\nimport androidx.fragment.app.Fragment;\r\nimport androidx.fragment.app.FragmentManager;\r\n\r\nimport com.google.android.material.floatingactionbutton.FloatingActionButton;\r\n\r\nimport java.util.Objects;\r\nimport java.util.regex.Matcher;\r\nimport java.util.regex.Pattern;\r\n\r\npublic class StaffDetail_Fragment extends Fragment implements OnClickListener {\r\n\r\n    // URLs\r\n    private static final String ASPX_SUBMIT_STAFF = \"SubmitStaff.aspx\";\r\n    private static final String ASPX_UPDATE_STAFF = \"UpdateStaff.aspx\";\r\n    private static final String ASPX_DELETE_STAFF = \"DeleteStaff.aspx\";\r\n\r\n    // Control fields\r\n    private View view;\r\n    private TextView staffTitle;\r\n    private EditText fullName;\r\n    private EditText emailId;\r\n    private EditText mobileNumber;\r\n    private static FloatingActionButton addStaffBtn;\r\n    private static FloatingActionButton updateStaffBtn;\r\n    private static FloatingActionButton deleteStaffBtn;\r\n    private static FloatingActionButton backStaffBtn;\r\n\r\n    // Variables\r\n    private Utils.Task task;\r\n    private Boolean status, isNetworkConnected;\r\n    private int staffId, companyId;\r\n\r\n    public StaffDetail_Fragment() {\r\n    }\r\n\r\n    @Override\r\n    public View onCreateView(LayoutInflater inflater, ViewGroup container,\r\n                             Bundle savedInstanceState) {\r\n        view = inflater.inflate(R.layout.staffdetail_layout, container, false);\r\n\r\n        initViews();\r\n        setListeners();\r\n\r\n        return view;\r\n    }\r\n\r\n    // Initialize all the views\r\n    private void initViews() {\r\n        staffTitle = view.findViewById(R.id.staffTitle);\r\n\r\n        fullName = view.findViewById(R.id.fullName);\r\n        // Default focus on staff name field once enter the page\r\n        fullName.requestFocus();\r\n\r\n        emailId = view.findViewById(R.id.userEmailId);\r\n        mobileNumber = view.findViewById(R.id.mobileNumber);\r\n\r\n        addStaffBtn = view.findViewById(R.id.addStaffBtn);\r\n\r\n        updateStaffBtn = view.findViewById(R.id.updateStaffBtn);\r\n        deleteStaffBtn = view.findViewById(R.id.deleteStaffBtn);\r\n        backStaffBtn = view.findViewById(R.id.backStaffBtn);\r\n\r\n        showData();\r\n    }\r\n\r\n    // Set event listeners\r\n    private void setListeners() {\r\n        addStaffBtn.setOnClickListener(this);\r\n        updateStaffBtn.setOnClickListener(this);\r\n        deleteStaffBtn.setOnClickListener(this);\r\n        backStaffBtn.setOnClickListener(this);\r\n    }\r\n\r\n    // Toggle buttons and display selected staff's data if it is edit mode\r\n    private void showData() {\r\n        Bundle bundle = this.getArguments();\r\n\r\n        if (bundle != null) {\r\n            Utils.Mode mode = (Utils.Mode) bundle.getSerializable(Utils.Bundle_Mode);\r\n\r\n            if (mode == Utils.Mode.Insert) {\r\n                updateStaffBtn.setVisibility(View.GONE);\r\n                deleteStaffBtn.setVisibility(View.GONE);\r\n            } else {\r\n                staffTitle.setText(getString(R.string.editStaff));\r\n\r\n                staffId = bundle.getInt(Utils.Bundle_ID);\r\n\r\n                if (staffId > 0) {\r\n                    StaffDbHelper db = new StaffDbHelper(getContext());\r\n                    Staff staff = db.getStaffById(staffId);\r\n\r\n                    fullName.setText(staff.getStaffName());\r\n                    emailId.setText(staff.getStaffEmail());\r\n                    mobileNumber.setText(staff.getStaffPhone());\r\n                }\r\n\r\n                addStaffBtn.setVisibility(View.GONE);\r\n            }\r\n        }\r\n    }\r\n\r\n    @Override\r\n    public void onClick(View v) {\r\n        switch (v.getId()) {\r\n            case R.id.addStaffBtn:\r\n                // Add staff\r\n                task = Utils.Task.Submit;\r\n\r\n                companyId = 1;\r\n\r\n                // Call checkValidation method\r\n                if (checkValidation() == Boolean.TRUE) {\r\n                    doSubmission(getString(R.string.confirmation_add_new_staff),\r\n                            Utils.Task.Submit.toString());\r\n                }\r\n                break;\r\n\r\n            case R.id.updateStaffBtn:\r\n                // Update staff\r\n                task = Utils.Task.Update;\r\n\r\n                companyId = 1;\r\n\r\n                // Call checkValidation method\r\n                if (checkValidation() == Boolean.TRUE) {\r\n                    doSubmission(getString(R.string.confirmation_update_staff),\r\n                            Utils.Task.Update.toString());\r\n                }\r\n                break;\r\n\r\n            case R.id.deleteStaffBtn:\r\n                // Delete staff\r\n                task = Utils.Task.Delete;\r\n\r\n                doSubmission(getString(R.string.confirmation_delete_staff),\r\n                        Utils.Task.Delete.toString());\r\n                break;\r\n\r\n            case R.id.backStaffBtn:\r\n                // Back to staff page\r\n                FragmentManager fragment = getActivity().getSupportFragmentManager();\r\n                fragment\r\n                        .beginTransaction()\r\n                        .setCustomAnimations(R.anim.left_enter, R.anim.right_out)\r\n                        .replace(R.id.frameContainer, new Staff_Fragment(),\r\n                                Utils.Staff_Fragment)\r\n                        .commit();\r\n                break;\r\n        }\r\n    }\r\n\r\n    // Check validation method\r\n    private Boolean checkValidation() {\r\n        Boolean validate = Boolean.TRUE;\r\n\r\n        // Get all edit text values\r\n        String name = fullName.getText().toString();\r\n        String email = emailId.getText().toString();\r\n        String phone = mobileNumber.getText().toString();\r\n\r\n        // Pattern match for email id\r\n        Pattern p = Pattern.compile(Utils.regEx);\r\n        Matcher m = p.matcher(email);\r\n\r\n        // Check if all the strings are null or not\r\n        if (name.equals(\"\") || name.length() == 0\r\n                || email.equals(\"\") || email.length() == 0\r\n                || phone.equals(\"\") || phone.length() == 0) {\r\n            validate = Boolean.FALSE;\r\n            new CustomToast().Show_Toast(getActivity(), view, getString(R.string.all_fields_are_required));\r\n\r\n            // Check if email id valid or not\r\n        } else if (!m.find()) {\r\n            validate = Boolean.FALSE;\r\n            new CustomToast().Show_Toast(getActivity(), view, getString(R.string.error_invalid_email));\r\n        }\r\n\r\n        return validate;\r\n    }\r\n\r\n    private void doSubmission(String message, final String taskSelection) {\r\n        new AlertDialog.Builder(getContext())\r\n                .setTitle(getString(R.string.confirmation))\r\n                .setMessage(message)\r\n                .setIcon(android.R.drawable.ic_dialog_info)\r\n                .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {\r\n                    public void onClick(DialogInterface dialog, int whichButton) {\r\n                        new BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,\r\n                                taskSelection);\r\n                    }\r\n                })\r\n                .setNegativeButton(android.R.string.no, null).show();\r\n    }\r\n\r\n    private void addStaff() {\r\n        try {\r\n            String url = String.format(\"%1$s%2$s%3$s?staff=%4$s&email=%5$s&phone=%6$s&companyID=%7$s\",\r\n                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_SUBMIT_STAFF,\r\n                    fullName.getText().toString(),\r\n                    emailId.getText().toString(),\r\n                    mobileNumber.getText().toString(),\r\n                    companyId);\r\n\r\n            XMLParser parser = new XMLParser();\r\n            status = parser.httpParamSubmission(url);\r\n        } catch (Exception e) {\r\n            status = Boolean.FALSE;\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n    }\r\n\r\n    private void updateStaff() {\r\n        try {\r\n            String url = String.format(\"%1$s%2$s%3$s?id=%4$s&staff=%5$s&email=%6$s&phone=%7$s&companyID=%8$s\",\r\n                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_UPDATE_STAFF,\r\n                    staffId,\r\n                    fullName.getText().toString(),\r\n                    emailId.getText().toString(),\r\n                    mobileNumber.getText().toString(),\r\n                    companyId);\r\n\r\n            XMLParser parser = new XMLParser();\r\n            status = parser.httpParamSubmission(url);\r\n        } catch (Exception e) {\r\n            status = Boolean.FALSE;\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n    }\r\n\r\n    private void deleteStaff() {\r\n        try {\r\n            String url = String.format(\"%1$s%2$s%3$s?id=%4$s\",\r\n                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_DELETE_STAFF,\r\n                    staffId);\r\n\r\n            XMLParser parser = new XMLParser();\r\n            status = parser.httpParamSubmission(url);\r\n        } catch (Exception e) {\r\n            status = Boolean.FALSE;\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", Objects.requireNonNull(e.getMessage()));\r\n        }\r\n    }\r\n\r\n    class BackgroundTask extends AsyncTask<String, Integer, String> {\r\n        @Override\r\n        protected String doInBackground(String... param) {\r\n            isNetworkConnected = Utils.isNetworkAvailable(getContext());\r\n\r\n            if (isNetworkConnected == Boolean.TRUE) {\r\n                if (param[0].equals(Utils.Task.Submit.toString())) {\r\n                    addStaff();\r\n                } else if (param[0].equals(Utils.Task.Update.toString())) {\r\n                    updateStaff();\r\n                } else if (param[0].equals(Utils.Task.Delete.toString())) {\r\n                    deleteStaff();\r\n                }\r\n            }\r\n\r\n            return null;\r\n        }\r\n\r\n        @Override\r\n        protected void onPostExecute(String s) {\r\n            super.onPostExecute(s);\r\n\r\n            if (isNetworkConnected == Boolean.TRUE) {\r\n                Bundle bundle = new Bundle();\r\n                bundle.putSerializable(Utils.Bundle_Task, task);\r\n                bundle.putBoolean(Utils.Bundle_Status, status);\r\n                bundle.putInt(Utils.Bundle_ID, staffId);\r\n\r\n                Staff_Fragment fragment = new Staff_Fragment();\r\n                fragment.setArguments(bundle);\r\n\r\n                getActivity().getSupportFragmentManager()\r\n                        .beginTransaction()\r\n                        .setCustomAnimations(R.anim.left_enter, R.anim.right_out)\r\n                        .replace(R.id.frameContainer, fragment, Utils.Staff_Fragment)\r\n                        .commit();\r\n            } else {\r\n                new CustomToast().Show_Toast(getActivity(), view, getString(R.string.error_no_network));\r\n            }\r\n        }\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/StaffDetail_Fragment.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/StaffDetail_Fragment.java	(date 1585372000118)
+@@ -4,7 +4,6 @@
+ import android.content.DialogInterface;
+ import android.os.AsyncTask;
+ import android.os.Bundle;
+-import android.util.Log;
+ import android.view.LayoutInflater;
+ import android.view.View;
+ import android.view.View.OnClickListener;
+@@ -17,7 +16,6 @@
+ 
+ import com.google.android.material.floatingactionbutton.FloatingActionButton;
+ 
+-import java.util.Objects;
+ import java.util.regex.Matcher;
+ import java.util.regex.Pattern;
+ 
+@@ -58,12 +56,11 @@
+         return view;
+     }
+ 
+-    // Initialize all the views
++    // Initialize all views
+     private void initViews() {
+         staffTitle = view.findViewById(R.id.staffTitle);
+ 
+         fullName = view.findViewById(R.id.fullName);
+-        // Default focus on staff name field once enter the page
+         fullName.requestFocus();
+ 
+         emailId = view.findViewById(R.id.userEmailId);
+@@ -78,7 +75,7 @@
+         showData();
+     }
+ 
+-    // Set event listeners
++    // Set Listeners
+     private void setListeners() {
+         addStaffBtn.setOnClickListener(this);
+         updateStaffBtn.setOnClickListener(this);
+@@ -122,7 +119,7 @@
+                 // Add staff
+                 task = Utils.Task.Submit;
+ 
+-                companyId = 1;
++                companyId = 2;
+ 
+                 // Call checkValidation method
+                 if (checkValidation() == Boolean.TRUE) {
+@@ -135,7 +132,7 @@
+                 // Update staff
+                 task = Utils.Task.Update;
+ 
+-                companyId = 1;
++                companyId = 2;
+ 
+                 // Call checkValidation method
+                 if (checkValidation() == Boolean.TRUE) {
+@@ -165,11 +162,11 @@
+         }
+     }
+ 
+-    // Check validation method
++    // Check Validation Method
+     private Boolean checkValidation() {
+         Boolean validate = Boolean.TRUE;
+ 
+-        // Get all edit text values
++        // Get all edit text texts
+         String name = fullName.getText().toString();
+         String email = emailId.getText().toString();
+         String phone = mobileNumber.getText().toString();
+@@ -178,7 +175,7 @@
+         Pattern p = Pattern.compile(Utils.regEx);
+         Matcher m = p.matcher(email);
+ 
+-        // Check if all the strings are null or not
++        // Check if all strings are null or not
+         if (name.equals("") || name.length() == 0
+                 || email.equals("") || email.length() == 0
+                 || phone.equals("") || phone.length() == 0) {
+@@ -201,63 +198,49 @@
+                 .setIcon(android.R.drawable.ic_dialog_info)
+                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                     public void onClick(DialogInterface dialog, int whichButton) {
++                        //if (Utils.isNetworkAvailable(getContext())) {
+                         new BackgroundTask().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR,
+                                 taskSelection);
++                        //} else {
++                        //    new CustomToast().Show_Toast(getActivity(), view, getString(R.string.error_no_network));
++                        //}
+                     }
+                 })
+                 .setNegativeButton(android.R.string.no, null).show();
+     }
+ 
+     private void addStaff() {
+-        try {
+-            String url = String.format("%1$s%2$s%3$s?staff=%4$s&email=%5$s&phone=%6$s&companyID=%7$s",
+-                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_SUBMIT_STAFF,
+-                    fullName.getText().toString(),
+-                    emailId.getText().toString(),
+-                    mobileNumber.getText().toString(),
+-                    companyId);
++        String url = String.format("%1$s%2$s%3$s?staff=%4$s&email=%5$s&phone=%6$s&companyID=%7$s",
++                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_SUBMIT_STAFF,
++                fullName.getText().toString(),
++                emailId.getText().toString(),
++                mobileNumber.getText().toString(),
++                companyId);
+ 
+-            XMLParser parser = new XMLParser();
+-            status = parser.httpParamSubmission(url);
+-        } catch (Exception e) {
+-            status = Boolean.FALSE;
+-            e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
+-        }
++        XMLParser parser = new XMLParser();
++        status = parser.httpParamSubmission(url);
+     }
+ 
+     private void updateStaff() {
+-        try {
+-            String url = String.format("%1$s%2$s%3$s?id=%4$s&staff=%5$s&email=%6$s&phone=%7$s&companyID=%8$s",
+-                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_UPDATE_STAFF,
+-                    staffId,
+-                    fullName.getText().toString(),
+-                    emailId.getText().toString(),
+-                    mobileNumber.getText().toString(),
+-                    companyId);
++        String url = String.format("%1$s%2$s%3$s?id=%4$s&staff=%5$s&email=%6$s&phone=%7$s&companyID=%8$s",
++                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_UPDATE_STAFF,
++                staffId,
++                fullName.getText().toString(),
++                emailId.getText().toString(),
++                mobileNumber.getText().toString(),
++                companyId);
+ 
+-            XMLParser parser = new XMLParser();
+-            status = parser.httpParamSubmission(url);
+-        } catch (Exception e) {
+-            status = Boolean.FALSE;
+-            e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
+-        }
++        XMLParser parser = new XMLParser();
++        status = parser.httpParamSubmission(url);
+     }
+ 
+     private void deleteStaff() {
+-        try {
+-            String url = String.format("%1$s%2$s%3$s?id=%4$s",
+-                    Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_DELETE_STAFF,
+-                    staffId);
++        String url = String.format("%1$s%2$s%3$s?id=%4$s",
++                Utils.SERVER_URL, Utils.SERVER_FOLDER, ASPX_DELETE_STAFF,
++                staffId);
+ 
+-            XMLParser parser = new XMLParser();
+-            status = parser.httpParamSubmission(url);
+-        } catch (Exception e) {
+-            status = Boolean.FALSE;
+-            e.printStackTrace();
+-            Log.e("Error: ", Objects.requireNonNull(e.getMessage()));
+-        }
++        XMLParser parser = new XMLParser();
++        status = parser.httpParamSubmission(url);
+     }
+ 
+     class BackgroundTask extends AsyncTask<String, Integer, String> {
+@@ -273,6 +256,8 @@
+                 } else if (param[0].equals(Utils.Task.Delete.toString())) {
+                     deleteStaff();
+                 }
++            } else {
++                new CustomToast().Show_Toast(getActivity(), view, getString(R.string.error_no_network));
+             }
+ 
+             return null;
+Index: app/src/main/java/com/example/salonbookingapp/ServicesAdapter.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.annotation.SuppressLint;\r\nimport android.app.Activity;\r\nimport android.view.LayoutInflater;\r\nimport android.view.View;\r\nimport android.view.ViewGroup;\r\nimport android.widget.ArrayAdapter;\r\nimport android.widget.TextView;\r\n\r\nimport java.util.ArrayList;\r\n\r\npublic class ServicesAdapter extends ArrayAdapter<Service> {\r\n\r\n    private final Activity context;\r\n    private final ArrayList<Service> services;\r\n\r\n    static class ViewHolder {\r\n        public TextView tvServiceName;\r\n        public TextView tvServicePrice;\r\n        public TextView tvServiceDuration;\r\n    }\r\n\r\n    public ServicesAdapter(Activity context, ArrayList<Service> services) {\r\n        super(context, R.layout.listview_service, services);\r\n        this.context = context;\r\n        this.services = services;\r\n    }\r\n\r\n    @SuppressLint(\"DefaultLocale\")\r\n    @Override\r\n    public View getView(int position, View convertView, ViewGroup parent) {\r\n        View rowView;\r\n        Service service = services.get(position);\r\n\r\n        if (convertView == null) {\r\n            LayoutInflater inflater = context.getLayoutInflater();\r\n            rowView = inflater.inflate(R.layout.listview_service, parent, false);\r\n\r\n            ServicesAdapter.ViewHolder viewHolder = new ServicesAdapter.ViewHolder();\r\n\r\n            viewHolder.tvServiceName = rowView.findViewById(R.id.tvServiceName);\r\n            viewHolder.tvServicePrice = rowView.findViewById(R.id.tvServicePrice);\r\n            viewHolder.tvServiceDuration = rowView.findViewById(R.id.tvServiceDuration);\r\n\r\n            rowView.setTag(viewHolder);\r\n\r\n            viewHolder.tvServiceName.setTag(service);\r\n            viewHolder.tvServicePrice.setTag(service);\r\n            viewHolder.tvServiceDuration.setTag(service);\r\n        } else {\r\n            rowView = convertView;\r\n            ((ViewHolder) rowView.getTag()).tvServiceName.setTag(service);\r\n            ((ViewHolder) rowView.getTag()).tvServicePrice.setTag(service);\r\n            ((ViewHolder) rowView.getTag()).tvServiceDuration.setTag(service);\r\n        }\r\n\r\n        ServicesAdapter.ViewHolder holder = (ServicesAdapter.ViewHolder) rowView.getTag();\r\n\r\n        holder.tvServiceName.setText(service.getServiceName());\r\n        holder.tvServicePrice.setText(String.format(\"%1$s %2$.2f\",\r\n                context.getString(R.string.service_price_currency),\r\n                service.getServicePrice()));\r\n        holder.tvServiceDuration.setText(String.format(\"%1$s %2$s\",\r\n                Integer.toString(service.getServiceDuration()),\r\n                context.getString(R.string.service_duration_minutes)));\r\n\r\n        return rowView;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/ServicesAdapter.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/ServicesAdapter.java	(date 1585372000116)
+@@ -1,6 +1,5 @@
+ package com.example.salonbookingapp;
+ 
+-import android.annotation.SuppressLint;
+ import android.app.Activity;
+ import android.view.LayoutInflater;
+ import android.view.View;
+@@ -27,7 +26,6 @@
+         this.services = services;
+     }
+ 
+-    @SuppressLint("DefaultLocale")
+     @Override
+     public View getView(int position, View convertView, ViewGroup parent) {
+         View rowView;
+@@ -58,12 +56,8 @@
+         ServicesAdapter.ViewHolder holder = (ServicesAdapter.ViewHolder) rowView.getTag();
+ 
+         holder.tvServiceName.setText(service.getServiceName());
+-        holder.tvServicePrice.setText(String.format("%1$s %2$.2f",
+-                context.getString(R.string.service_price_currency),
+-                service.getServicePrice()));
+-        holder.tvServiceDuration.setText(String.format("%1$s %2$s",
+-                Integer.toString(service.getServiceDuration()),
+-                context.getString(R.string.service_duration_minutes)));
++        holder.tvServicePrice.setText(String.valueOf(service.getServicePrice()));
++        holder.tvServiceDuration.setText(Integer.toString(service.getServiceDuration()));
+ 
+         return rowView;
+     }
+Index: app/src/main/java/com/example/salonbookingapp/Staff.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\npublic class Staff {\r\n\r\n    private int staffId;\r\n    private String staffName;\r\n    private String staffEmail;\r\n    private String staffPhone;\r\n\r\n    public Staff() {\r\n    }\r\n\r\n    public Staff(int staffId, String staffName,\r\n                 String staffEmail, String staffPhone) {\r\n        this.staffId = staffId;\r\n        this.staffName = staffName;\r\n        this.staffEmail = staffEmail;\r\n        this.staffPhone = staffPhone;\r\n    }\r\n\r\n    public int getStaffId() {\r\n        return staffId;\r\n    }\r\n\r\n    public void setStaffId(int staffId) {\r\n        this.staffId = staffId;\r\n    }\r\n\r\n    public String getStaffName() {\r\n        return staffName;\r\n    }\r\n\r\n    public void setStaffName(String staffName) {\r\n        this.staffName = staffName;\r\n    }\r\n\r\n    public String getStaffEmail() {\r\n        return staffEmail;\r\n    }\r\n\r\n    public void setStaffEmail(String staffEmail) {\r\n        this.staffEmail = staffEmail;\r\n    }\r\n\r\n    public String getStaffPhone() {\r\n        return staffPhone;\r\n    }\r\n\r\n    public void setStaffPhone(String staffPhone) {\r\n        this.staffPhone = staffPhone;\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/Staff.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/Staff.java	(date 1585372000117)
+@@ -10,8 +10,8 @@
+     public Staff() {
+     }
+ 
+-    public Staff(int staffId, String staffName,
+-                 String staffEmail, String staffPhone) {
++    public Staff(int staffId, String staffName, String staffEmail,
++                 String staffPhone) {
+         this.staffId = staffId;
+         this.staffName = staffName;
+         this.staffEmail = staffEmail;
+@@ -49,4 +49,18 @@
+     public void setStaffPhone(String staffPhone) {
+         this.staffPhone = staffPhone;
+     }
++
++    @Override
++    public String toString() {
++        StringBuilder sb = new StringBuilder();
++
++        sb.append("<Row>");
++        sb.append("<StaffID>").append(staffId).append("</StaffID>");
++        sb.append("<StaffName>").append(staffName).append("</StaffName>");
++        sb.append("<StaffEmail>").append(staffEmail).append("</StaffEmail>");
++        sb.append("<StaffPhone>").append(staffPhone).append("</StaffPhone>");
++        sb.append("</Row>");
++
++        return sb.toString();
++    }
+ }
+Index: app/src/main/java/com/example/salonbookingapp/XMLParser.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.salonbookingapp;\r\n\r\nimport android.util.Log;\r\n\r\nimport org.apache.http.entity.StringEntity;\r\nimport org.apache.http.entity.mime.MultipartEntity;\r\nimport org.w3c.dom.Document;\r\nimport org.w3c.dom.Element;\r\nimport org.w3c.dom.Node;\r\nimport org.w3c.dom.NodeList;\r\nimport org.xml.sax.InputSource;\r\n\r\nimport java.io.BufferedReader;\r\nimport java.io.ByteArrayInputStream;\r\nimport java.io.InputStreamReader;\r\nimport java.io.OutputStream;\r\nimport java.net.HttpURLConnection;\r\nimport java.net.URL;\r\nimport java.nio.charset.StandardCharsets;\r\n\r\nimport javax.xml.parsers.DocumentBuilder;\r\nimport javax.xml.parsers.DocumentBuilderFactory;\r\n\r\n/**\r\n * XML Parser Class (For CustomizedListView). References:\r\n * http://www.androidhive.info/2011/11/android-xml-parsing-tutorial/\r\n *\r\n * @author Ravi Tamada\r\n * @since Nov 12, 2011\r\n */\r\npublic class XMLParser {\r\n\r\n    // XML nodes for insert status\r\n    private static final String XML_NODE_INSERT = \"Insert\";\r\n    private static final String XML_NODE_STATUS = \"Status\";\r\n\r\n    public XMLParser() {\r\n    }\r\n\r\n    /**\r\n     * Getting XML content by making HTTP Request.\r\n     *\r\n     * @param url          HTTP URL\r\n     * @param isGet        Request method GET or POST\r\n     * @param entity       Multipart/form coded HTTP entity\r\n     * @param stringEntity String entity\r\n     * @return XML document\r\n     */\r\n    public String getXmlFromUrl(String url, boolean isGet, MultipartEntity entity, StringEntity stringEntity) {\r\n        String xml = \"\";\r\n\r\n        try {\r\n            // Instantiate the URL object with the target URL of the resource to request\r\n            URL url1 = new URL(url);\r\n\r\n            // Instantiate the HttpURLConnection with the URL object - A new\r\n            // connection is opened every time by calling the openConnection\r\n            // method of the protocol handler for this URL.\r\n            // 1. This is the point where the connection is opened.\r\n            HttpURLConnection connection = (HttpURLConnection) url1.openConnection();\r\n            connection.setReadTimeout(Utils.timeout_submission);\r\n            connection.setConnectTimeout(Utils.timeout_submission);\r\n            connection.setRequestProperty(\"Connection\", \"Keep-Alive\");\r\n\r\n            if (!isGet) {\r\n                // Instead of a GET, we're going to send using method = \"POST\"\r\n                connection.setRequestMethod(\"POST\");\r\n                // Set connection input to true\r\n                connection.setDoInput(true);\r\n\r\n                if (entity != null) {\r\n                    connection.addRequestProperty(entity.getContentType().getName(), entity.getContentType().getValue());\r\n                    OutputStream os = connection.getOutputStream();\r\n                    entity.writeTo(connection.getOutputStream());\r\n                    os.close();\r\n                } else if (stringEntity != null) {\r\n                    connection.addRequestProperty(stringEntity.getContentType().getName(), stringEntity.getContentType().getValue());\r\n                    OutputStream os = connection.getOutputStream();\r\n                    stringEntity.writeTo(connection.getOutputStream());\r\n                    os.close();\r\n                }\r\n            } else {\r\n                connection.setRequestMethod(\"GET\");\r\n            }\r\n\r\n            connection.connect();\r\n\r\n            // If there is a response code AND that response code is 200 OK, do stuff in the first if block\r\n            if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {\r\n                StringBuilder xmlResponse = new StringBuilder();\r\n                BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream()), 8192);\r\n                String strLine = null;\r\n\r\n                while ((strLine = input.readLine()) != null) {\r\n                    xmlResponse.append(strLine);\r\n                }\r\n\r\n                xml = xmlResponse.toString();\r\n                input.close();\r\n            }\r\n        } catch (Exception e) {\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n\r\n        return xml;\r\n    }\r\n\r\n    /**\r\n     * Submit HTTP Request with URL parameters.\r\n     *\r\n     * @param url HTTP URL\r\n     * @return XML document\r\n     */\r\n    public Boolean httpParamSubmission(String url) {\r\n        Boolean status = Boolean.FALSE;\r\n\r\n        try {\r\n            URL url1 = new URL(url);\r\n            String xml = \"\";\r\n\r\n            HttpURLConnection connection = (HttpURLConnection) url1.openConnection();\r\n            connection.setRequestMethod(\"GET\");\r\n            connection.setReadTimeout(Utils.timeout_submission);\r\n            connection.setConnectTimeout(Utils.timeout_submission);\r\n\r\n            if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {\r\n                StringBuilder xmlResponse = new StringBuilder();\r\n                BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream()), 8192);\r\n                String strLine;\r\n\r\n                while ((strLine = input.readLine()) != null) {\r\n                    xmlResponse.append(strLine);\r\n                }\r\n\r\n                xml = xmlResponse.toString();\r\n                input.close();\r\n            }\r\n\r\n            if (xml.length() > 0) {\r\n                XMLParser parser = new XMLParser();\r\n                Document doc = parser.getDomElement(xml);\r\n                NodeList nl = doc.getElementsByTagName(XML_NODE_INSERT);\r\n                Element e = (Element) nl.item(0);\r\n\r\n                status = Boolean.valueOf(parser.getValue(e, XML_NODE_STATUS));\r\n            }\r\n        } catch (Exception e) {\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n        }\r\n\r\n        return status;\r\n    }\r\n\r\n    /**\r\n     * Getting XML content by making local request.\r\n     *\r\n     * @param xml XML element\r\n     * @return XML document\r\n     */\r\n    public Document getDomElement(String xml) {\r\n        Document doc = null;\r\n        DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();\r\n\r\n        try {\r\n            DocumentBuilder db = dbf.newDocumentBuilder();\r\n\r\n            InputSource is = new InputSource(new ByteArrayInputStream(xml.getBytes(StandardCharsets.UTF_8)));\r\n\r\n            doc = db.parse(is);\r\n        } catch (Exception e) {\r\n            e.printStackTrace();\r\n            Log.e(\"Error: \", e.getMessage());\r\n            return null;\r\n        }\r\n\r\n        // Return DOM.\r\n        return doc;\r\n    }\r\n\r\n    /**\r\n     * Get each XML child element value by passing element node name.\r\n     *\r\n     * @param item XML node element\r\n     * @param str  XML node key\r\n     * @return XML child element value\r\n     */\r\n    public String getValue(Element item, String str) {\r\n        NodeList nl = item.getElementsByTagName(str);\r\n\r\n        return this.getElementValue(nl.item(0));\r\n    }\r\n\r\n    /**\r\n     * Get each XML child element value by passing element node name.\r\n     *\r\n     * @param elem element node name\r\n     * @return XML child element\r\n     */\r\n    private String getElementValue(Node elem) {\r\n        Node child;\r\n\r\n        if (elem != null) {\r\n            if (elem.hasChildNodes()) {\r\n                for (child = elem.getFirstChild(); child != null; child = child.getNextSibling()) {\r\n                    if (child.getNodeType() == Node.TEXT_NODE) {\r\n                        return child.getNodeValue();\r\n                    }\r\n                }\r\n            }\r\n        }\r\n\r\n        return \"\";\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/example/salonbookingapp/XMLParser.java	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/java/com/example/salonbookingapp/XMLParser.java	(date 1585372000120)
+@@ -30,13 +30,14 @@
+  */
+ public class XMLParser {
+ 
+-    // XML nodes for insert status
++    // Default constructor.
++    XMLParser() {
++    }
++
++    // XML Nodes
+     private static final String XML_NODE_INSERT = "Insert";
+     private static final String XML_NODE_STATUS = "Status";
+ 
+-    public XMLParser() {
+-    }
+-
+     /**
+      * Getting XML content by making HTTP Request.
+      *
+@@ -100,7 +101,6 @@
+             }
+         } catch (Exception e) {
+             e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
+         }
+ 
+         return xml;
+@@ -114,16 +114,17 @@
+      */
+     public Boolean httpParamSubmission(String url) {
+         Boolean status = Boolean.FALSE;
++        String xml = "";
+ 
+         try {
+             URL url1 = new URL(url);
+-            String xml = "";
+-
++            // Initiate a new URL connection
+             HttpURLConnection connection = (HttpURLConnection) url1.openConnection();
+             connection.setRequestMethod("GET");
+             connection.setReadTimeout(Utils.timeout_submission);
+             connection.setConnectTimeout(Utils.timeout_submission);
+ 
++            // Status 200 - connection successful
+             if (connection.getResponseCode() == HttpURLConnection.HTTP_OK) {
+                 StringBuilder xmlResponse = new StringBuilder();
+                 BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream()), 8192);
+@@ -136,18 +137,18 @@
+                 xml = xmlResponse.toString();
+                 input.close();
+             }
++        } catch (Exception e) {
++            e.printStackTrace();
++            Log.e("Error: ", e.getMessage());
++        }
+ 
+-            if (xml.length() > 0) {
+-                XMLParser parser = new XMLParser();
+-                Document doc = parser.getDomElement(xml);
+-                NodeList nl = doc.getElementsByTagName(XML_NODE_INSERT);
+-                Element e = (Element) nl.item(0);
++        if (xml.length() > 0) {
++            XMLParser parser = new XMLParser();
++            Document doc = parser.getDomElement(xml);
++            NodeList nl = doc.getElementsByTagName(XML_NODE_INSERT);
++            Element e = (Element) nl.item(0);
+ 
+-                status = Boolean.valueOf(parser.getValue(e, XML_NODE_STATUS));
+-            }
+-        } catch (Exception e) {
+-            e.printStackTrace();
+-            Log.e("Error: ", e.getMessage());
++            status = Boolean.valueOf(parser.getValue(e, XML_NODE_STATUS));
+         }
+ 
+         return status;
+@@ -187,9 +188,8 @@
+      * @return XML child element value
+      */
+     public String getValue(Element item, String str) {
+-        NodeList nl = item.getElementsByTagName(str);
+-
+-        return this.getElementValue(nl.item(0));
++        NodeList n = item.getElementsByTagName(str);
++        return this.getElementValue(n.item(0));
+     }
+ 
+     /**
+Index: app/src/main/res/layout/home_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/container\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\">\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/home_title_layout\"\r\n        android:layout_width=\"fill_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerInParent=\"true\"\r\n        android:orientation=\"vertical\">\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:orientation=\"horizontal\"\r\n            android:paddingTop=\"8dp\"\r\n            android:paddingBottom=\"5dp\">\r\n\r\n            <TextView\r\n                android:layout_width=\"wrap_content\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:padding=\"10dp\"\r\n                android:text=\"Welcome, users\"\r\n                android:textColor=\"@color/white\"\r\n                android:textSize=\"24sp\"\r\n                android:textStyle=\"bold\" />\r\n\r\n            <TextView\r\n                android:id=\"@+id/logout\"\r\n                android:layout_width=\"wrap_content\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:layout_weight=\"1\"\r\n                android:gravity=\"end\"\r\n                android:padding=\"5dp\"\r\n                android:text=\"@string/logout\"\r\n                android:textColor=\"@color/peach\"\r\n                android:textSize=\"18sp\"\r\n                android:textStyle=\"bold\" />\r\n\r\n        </LinearLayout>\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:padding=\"10dp\"\r\n            android:text=\"@string/upcoming_booking\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"20sp\"\r\n            android:textStyle=\"bold\" />\r\n\r\n        <View\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"1px\"\r\n            android:layout_margin=\"12dp\"\r\n            android:background=\"@color/white_greyish\" />\r\n\r\n    </LinearLayout>\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"fill_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:orientation=\"vertical\"\r\n        android:weightSum=\"4\">\r\n\r\n        <ListView\r\n            android:id=\"@+id/card_listView\"\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"0dp\"\r\n            android:layout_below=\"@+id/home_title_layout\"\r\n            android:layout_centerHorizontal=\"true\"\r\n            android:layout_centerVertical=\"true\"\r\n            android:layout_margin=\"12dp\"\r\n            android:layout_weight=\"2\"\r\n            android:cacheColorHint=\"@android:color/transparent\"\r\n            android:divider=\"@null\"\r\n            android:dividerHeight=\"10dp\"\r\n            android:gravity=\"center\"\r\n            android:listSelector=\"@android:color/transparent\" />\r\n\r\n        <TableLayout\r\n            android:layout_width=\"fill_parent\"\r\n            android:layout_height=\"0dp\"\r\n            android:layout_weight=\"2\"\r\n            android:stretchColumns=\"*\">\r\n\r\n            <TableRow\r\n                android:layout_width=\"fill_parent\"\r\n                android:layout_height=\"fill_parent\"\r\n                android:weightSum=\"1\">\r\n\r\n                <Button\r\n                    android:id=\"@+id/newBookingBtn\"\r\n                    android:layout_width=\"100dp\"\r\n                    android:layout_height=\"80dp\"\r\n                    android:layout_marginTop=\"32dp\"\r\n                    android:layout_marginLeft=\"20dp\"\r\n                    android:layout_marginRight=\"20dp\"\r\n                    android:layout_marginBottom=\"32dp\"\r\n                    android:padding=\"10dp\"\r\n                    android:elevation=\"10dp\"\r\n                    android:translationZ=\"10dp\"\r\n                    android:stateListAnimator=\"@null\"\r\n                    android:background=\"@drawable/circle\"\r\n                    android:drawableTop=\"@drawable/icon_event_note_white_18dp\"\r\n                    android:text=\"@string/newBooking\"\r\n                    android:textColor=\"#fff\" />\r\n\r\n                <Button\r\n                    android:id=\"@+id/paymentBtn\"\r\n                    android:layout_width=\"100dp\"\r\n                    android:layout_height=\"80dp\"\r\n                    android:layout_marginTop=\"32dp\"\r\n                    android:layout_marginLeft=\"20dp\"\r\n                    android:layout_marginRight=\"20dp\"\r\n                    android:layout_marginBottom=\"32dp\"\r\n                    android:padding=\"10dp\"\r\n                    android:elevation=\"10dp\"\r\n                    android:translationZ=\"10dp\"\r\n                    android:stateListAnimator=\"@null\"\r\n                    android:background=\"@drawable/circle\"\r\n                    android:drawableTop=\"@drawable/icon_attach_money_white_18dp\"\r\n                    android:text=\"@string/payment\"\r\n                    android:textColor=\"#fff\" />\r\n\r\n            </TableRow>\r\n\r\n            <TableRow>\r\n\r\n                <Button\r\n                    android:id=\"@+id/staffBtn\"\r\n                    android:layout_width=\"100dp\"\r\n                    android:layout_height=\"80dp\"\r\n                    android:layout_marginLeft=\"20dp\"\r\n                    android:layout_marginRight=\"20dp\"\r\n                    android:layout_marginBottom=\"32dp\"\r\n                    android:padding=\"10dp\"\r\n                    android:elevation=\"10dp\"\r\n                    android:translationZ=\"10dp\"\r\n                    android:stateListAnimator=\"@null\"\r\n                    android:background=\"@drawable/circle\"\r\n                    android:drawableTop=\"@drawable/icon_face_white_18dp\"\r\n                    android:text=\"@string/staff\"\r\n                    android:textColor=\"#fff\" />\r\n\r\n                <Button\r\n                    android:id=\"@+id/serviceBtn\"\r\n                    android:layout_width=\"100dp\"\r\n                    android:layout_height=\"80dp\"\r\n                    android:layout_marginLeft=\"20dp\"\r\n                    android:layout_marginRight=\"20dp\"\r\n                    android:layout_marginBottom=\"32dp\"\r\n                    android:padding=\"10dp\"\r\n                    android:elevation=\"10dp\"\r\n                    android:translationZ=\"10dp\"\r\n                    android:stateListAnimator=\"@null\"\r\n                    android:background=\"@drawable/circle\"\r\n                    android:drawableTop=\"@drawable/icon_store_mall_directory_white_18dp\"\r\n                    android:text=\"@string/service\"\r\n                    android:textColor=\"#fff\" />\r\n            </TableRow>\r\n\r\n        </TableLayout>\r\n\r\n    </LinearLayout>\r\n\r\n</LinearLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/home_layout.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/res/layout/home_layout.xml	(date 1585372000121)
+@@ -127,6 +127,32 @@
+                     android:text="@string/payment"
+                     android:textColor="#fff" />
+ 
++                <!--<Button-->
++                <!--    android:id="@+id/newBookingBtn"-->
++                <!--    android:layout_width="100dp"-->
++                <!--    android:layout_height="wrap_content"-->
++                <!--    android:layout_column="0"-->
++                <!--    android:layout_marginTop="3dp"-->
++                <!--    android:background="@drawable/round_button"-->
++                <!--    android:padding="3dp"-->
++                <!--    android:text="@string/newBooking"-->
++                <!--    android:textColor="@color/white"-->
++                <!--    android:textSize="17sp"-->
++                <!--    android:textStyle="bold" />-->
++
++                <!--<Button-->
++                <!--    android:id="@+id/paymentBtn"-->
++                <!--    android:layout_width="wrap_content"-->
++                <!--    android:layout_height="wrap_content"-->
++                <!--    android:layout_column="1"-->
++                <!--    android:layout_marginTop="3dp"-->
++                <!--    android:background="@drawable/round_button"-->
++                <!--    android:padding="3dp"-->
++                <!--    android:text="@string/payment"-->
++                <!--    android:textColor="@color/white"-->
++                <!--    android:textSize="17sp"-->
++                <!--    android:textStyle="bold" />-->
++
+             </TableRow>
+ 
+             <TableRow>
+@@ -162,6 +188,30 @@
+                     android:drawableTop="@drawable/icon_store_mall_directory_white_18dp"
+                     android:text="@string/service"
+                     android:textColor="#fff" />
++
++                <!--<Button-->
++                <!--    android:id="@+id/staffBtn"-->
++                <!--    android:layout_width="fill_parent"-->
++                <!--    android:layout_height="wrap_content"-->
++                <!--    android:layout_marginTop="3dp"-->
++                <!--    android:background="@drawable/round_button"-->
++                <!--    android:padding="3dp"-->
++                <!--    android:text="@string/staff"-->
++                <!--    android:textColor="@color/white"-->
++                <!--    android:textSize="17sp"-->
++                <!--    android:textStyle="bold" />-->
++
++                <!--<Button-->
++                <!--    android:id="@+id/serviceBtn"-->
++                <!--    android:layout_width="fill_parent"-->
++                <!--    android:layout_height="wrap_content"-->
++                <!--    android:layout_marginTop="3dp"-->
++                <!--    android:background="@drawable/round_button"-->
++                <!--    android:padding="3dp"-->
++                <!--    android:text="@string/service"-->
++                <!--    android:textColor="@color/white"-->
++                <!--    android:textSize="17sp"-->
++                <!--    android:textStyle="bold" />-->
+             </TableRow>
+ 
+         </TableLayout>
+Index: app/src/main/res/layout/servicedetail_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    android:layout_width=\"fill_parent\"\r\n    android:layout_height=\"fill_parent\"\r\n    android:orientation=\"vertical\"\r\n    android:padding=\"20dp\" >\r\n\r\n    <TextView\r\n        android:id=\"@+id/serviceTitle\"\r\n        android:layout_width=\"fill_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"5dp\"\r\n        android:padding=\"10dp\"\r\n        android:text=\"@string/addNewService\"\r\n        android:textColor=\"@color/white_greyish\"\r\n        android:textSize=\"25sp\"\r\n        android:textStyle=\"bold\" />\r\n\r\n    <View\r\n        android:layout_width=\"fill_parent\"\r\n        android:layout_height=\"1px\"\r\n        android:background=\"@color/white_greyish\" />\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/staff_input_layout_category\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginTop=\"10dp\">\r\n\r\n        <TextView\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"\r\n            android:paddingLeft=\"4dp\"\r\n            android:paddingRight=\"4dp\"\r\n            android:text=\"@string/category_name\"\r\n            android:textSize=\"12dp\" />\r\n\r\n        <FrameLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"match_parent\"\r\n            android:layout_marginTop=\"6dp\"\r\n            android:background=\"@drawable/drawable_spinner_border\">\r\n\r\n            <Spinner\r\n                android:id=\"@+id/spinner\"\r\n                android:layout_width=\"match_parent\"\r\n                android:layout_height=\"wrap_content\" />\r\n        </FrameLayout>\r\n\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/service_input_layout_name\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginTop=\"10dp\">\r\n\r\n        <EditText\r\n            android:id=\"@+id/serviceName\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:ems=\"10\"\r\n            android:hint=\"Service\"/>\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/service_input_layout_price\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginTop=\"10dp\">\r\n\r\n        <EditText\r\n            android:id=\"@+id/servicePrice\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:ems=\"10\"\r\n            android:hint=\"Price\"\r\n            android:inputType=\"numberDecimal\"/>\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <com.google.android.material.textfield.TextInputLayout\r\n        android:id=\"@+id/service_input_layout_duration\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_centerHorizontal=\"true\"\r\n        android:layout_marginTop=\"10dp\">\r\n\r\n        <EditText\r\n            android:id=\"@+id/serviceDuration\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:ems=\"10\"\r\n            android:hint=\"Duration\"\r\n            android:inputType=\"number\"/>\r\n    </com.google.android.material.textfield.TextInputLayout>\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginTop=\"10dp\">\r\n\r\n        <com.google.android.material.floatingactionbutton.FloatingActionButton\r\n            android:id=\"@+id/addServiceBtn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_margin=\"8dp\"\r\n            android:tooltipText=\"@string/tooltip_service_add\"\r\n            app:backgroundTint=\"@color/action_submit_green\"\r\n            app:srcCompat=\"@drawable/icon_add_white_48dp\" />\r\n\r\n        <com.google.android.material.floatingactionbutton.FloatingActionButton\r\n            android:id=\"@+id/updateServiceBtn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_margin=\"8dp\"\r\n            android:tooltipText=\"@string/tooltip_service_update\"\r\n            app:backgroundTint=\"@color/action_update_yellow\"\r\n            app:srcCompat=\"@drawable/icon_create_white_48dp\" />\r\n\r\n        <com.google.android.material.floatingactionbutton.FloatingActionButton\r\n            android:id=\"@+id/deleteServiceBtn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_margin=\"8dp\"\r\n            android:tooltipText=\"@string/tooltip_service_delete\"\r\n            app:backgroundTint=\"@color/action_delete_red\"\r\n            app:srcCompat=\"@drawable/icon_delete_forever_white_48dp\" />\r\n\r\n        <com.google.android.material.floatingactionbutton.FloatingActionButton\r\n            android:id=\"@+id/backServiceBtn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_margin=\"8dp\"\r\n            android:tooltipText=\"@string/tooltip_service_back\"\r\n            app:backgroundTint=\"@color/action_back_blue\"\r\n            app:srcCompat=\"@drawable/icon_undo_white_48dp\" />\r\n\r\n    </LinearLayout>\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/servicedetail_layout.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/res/layout/servicedetail_layout.xml	(date 1585372000123)
+@@ -44,7 +44,7 @@
+             android:background="@drawable/drawable_spinner_border">
+ 
+             <Spinner
+-                android:id="@+id/spinner"
++                android:id="@+id/categorySpinner"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content" />
+         </FrameLayout>
+@@ -78,8 +78,7 @@
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+-            android:hint="Price"
+-            android:inputType="numberDecimal"/>
++            android:hint="Price"/>
+     </com.google.android.material.textfield.TextInputLayout>
+ 
+     <com.google.android.material.textfield.TextInputLayout
+@@ -94,8 +93,7 @@
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+-            android:hint="Duration"
+-            android:inputType="number"/>
++            android:hint="Duration"/>
+     </com.google.android.material.textfield.TextInputLayout>
+ 
+     <LinearLayout
+Index: app/src/main/res/layout/staff_layout.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:id=\"@+id/container\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\"\r\n    android:orientation=\"vertical\"\r\n    tools:context=\".MainActivity\">\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/title_layout\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"vertical\">\r\n\r\n        <TextView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:padding=\"16dp\"\r\n            android:text=\"@string/staffs\"\r\n            android:textColor=\"@color/white\"\r\n            android:textSize=\"24sp\" />\r\n\r\n    </LinearLayout>\r\n\r\n    <FrameLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\">\r\n\r\n        <ListView\r\n            android:id=\"@+id/card_listView_staff\"\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:cacheColorHint=\"@android:color/transparent\"\r\n            android:divider=\"@null\"\r\n            android:dividerHeight=\"10dp\"\r\n            android:listSelector=\"@android:color/transparent\" />\r\n\r\n        <com.google.android.material.floatingactionbutton.FloatingActionButton\r\n            android:id=\"@+id/addNewStaffBtn\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:layout_gravity=\"bottom|end\"\r\n            android:layout_margin=\"16dp\"\r\n            android:tooltipText=\"@string/tooltip_staff_add\"\r\n            app:backgroundTint=\"@color/action_submit_green\"\r\n            app:srcCompat=\"@drawable/icon_add_white_48dp\" />\r\n\r\n    </FrameLayout>\r\n\r\n</LinearLayout>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/staff_layout.xml	(revision 81c6e7a43eed2d44dee9f673a4cc8a1c711c10d4)
++++ app/src/main/res/layout/staff_layout.xml	(date 1585372000124)
+@@ -12,13 +12,14 @@
+         android:id="@+id/title_layout"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
++        android:layout_centerInParent="true"
+         android:orientation="vertical">
+ 
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:padding="16dp"
+-            android:text="@string/staffs"
++            android:text="Staffs"
+             android:textColor="@color/white"
+             android:textSize="24sp" />
+ 
+@@ -32,6 +33,7 @@
+             android:id="@+id/card_listView_staff"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
++            android:layout_below="@+id/title_layout"
+             android:cacheColorHint="@android:color/transparent"
+             android:divider="@null"
+             android:dividerHeight="10dp"
+@@ -41,7 +43,7 @@
+             android:id="@+id/addNewStaffBtn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+-            android:layout_gravity="bottom|end"
++            android:layout_gravity="bottom|right"
+             android:layout_margin="16dp"
+             android:tooltipText="@string/tooltip_staff_add"
+             app:backgroundTint="@color/action_submit_green"

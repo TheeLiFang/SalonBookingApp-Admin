@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="background_color">#5C5858</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="peach">#FFE5B4</color>
+    <color name="macaw_blue_green">#43BFC7</color>
+    <color name="white_greyish">#EEEEEE</color>
+    <color name="button_selectorcolor">#9E9E9E</color>
+    <color name="violet">#8d38c9</color>
+    <color name="grey">#808080</color>
+    <color name="reply_orange">#F9AA33</color>
+    <color name="mango_orange">#FF8040</color>
+    <color name="black_semi_transparent">#B2000000</color>
+
+    <!-- Bootstrap 4 colours - https://colorswall.com/palette/3/ -->
+    <color name="action_submit_green">#5cb85c</color>
+    <color name="action_update_yellow">#f0ad4e</color>
+    <color name="action_delete_red">#d9534f</color>
+    <color name="action_back_blue">#0275d8</color>
+
+    <!-- https://getbootstrap.com/docs/4.4/components/buttons/#examples -->
+    <color name="action_submit_green_pressed">#28a745</color>
+    <color name="action_update_yellow_pressed">#ffc107</color>
+    <color name="action_delete_red_pressed">#dc3545</color>
+    <color name="action_back_blue_pressed">#007bff</color>
+
+</resources>

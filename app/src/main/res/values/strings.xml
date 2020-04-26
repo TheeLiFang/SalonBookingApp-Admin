@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Salon Owner</string>
+    <string name="welcome">Welcome,</string>
+    <string name="action_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="logout">LOGOUT</string>
+    <string name="more">more</string>
+    <string name="add_button">Add</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="confirmation_logout">Are you sure to logout?</string>
+    <string name="closeButton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailID">Please enter your Registered Email Id below:</string>
+    <string name="salonLogin">Are you a salon owner? Login here.</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="colon">:</string>
+    <string name="delimiter">;</string>
+    <string name="newline">\n</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="all_fields_are_required">All fields are required</string>
+    <string name="error_invalid_enter_credentials">Enter both credentials</string>
+    <string name="error_invalid_email_format">Invalid email</string>
+    <string name="error_invalid_login">Invalid email and/or password</string>
+    <string name="error_no_network">No internet connection now, please try again</string>
+
+    <string name="submission_success">Submission successfully</string>
+    <string name="submission_fail">Submission failed</string>
+
+    <string name="salonEmail">Company Email Id</string>
+
+    <string name="appointments">Appointments</string>
+    <string name="appointment_history">History</string>
+    <string name="transaction_history">Transaction</string>
+    <string name="profile">Profile</string>
+
+    <string name="upcoming_booking">Upcoming Booking</string>
+
+    <!-- Forget Password -->
+    <string name="success_send_forget_password_email">Reset password has been sent to the email</string>
+    <string name="enter_email_id">Please enter your Email Id.</string>
+    <string name="email_id_invalid">Your Email Id is Invalid.</string>
+    <string name="email_id_not_registered">Your Email Id is not registered.</string>
+
+    <!-- SignIn -->
+    <string name="success_add_new_company">Registration has been done successfully</string>
+    <string name="error_add_new_company">Registration failed</string>
+    <string name="email_id_registered">Your Email Id has been registered.</string>
+
+    <!-- SignUp -->
+    <string name="password_not_match">Both password does not match</string>
+
+    <!-- Company -->
+    <string name="working_hour">Working Hour</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="invalid_start_end_time">End time must be later than start time</string>
+    <string name="tooltip_working_hour_update">Update Working Hour</string>
+    <string name="tooltip_working_hour_back">Back to Setting Page</string>
+    <string name="confirmation_update_working_hour">Are you sure to update this working hour?</string>
+
+    <!-- Booking -->
+    <string name="newBooking">New Booking</string>
+
+    <!-- Payment -->
+    <string name="payment">Payment</string>
+    <string name="client">Client</string>
+    <string name="booking">Booking</string>
+    <string name="booking_id">Booking ID</string>
+    <string name="subTotal">Subtotal</string>
+    <string name="service_list">List of services:</string>
+    <string name="tooltip_payment_pay">Pay</string>
+    <string name="confirmation_submit_payment">Are you sure to confirm the payment for this client?</string>
+    <string name="payment_success">Your payment has been made successfully.</string>
+    <string name="thank_you_for_visit">Thank you for visiting our shop.</string>
+
+    <!-- Client -->
+    <string name="clients">Clients</string>
+    <string name="addNewClient">Add New Client</string>
+    <string name="editClient">Edit Client</string>
+    <string name="updateClient">Update Client</string>
+    <string name="client_id">Client ID</string>
+    <string name="client_name">Name</string>
+    <string name="client_email">Email</string>
+    <string name="client_phone">Phone</string>
+    <string name="client_allergic_remark">Allergic Remark</string>
+    <string name="client_remark">Remark</string>
+    <string name="tooltip_client_add">Add New Client</string>
+    <string name="tooltip_client_update">Update Client</string>
+    <string name="tooltip_client_back">Back to Client Page</string>
+    <string name="confirmation_add_new_client">Are you sure to add new this client?</string>
+    <string name="confirmation_update_client">Are you sure to update this client?</string>
+    <string name="success_add_new_client">New client has been added successfully</string>
+    <string name="success_update_client">Client has been updated successfully</string>
+    <string name="error_add_new_client">Failed to add new client, please try again</string>
+    <string name="error_update_client">Failed to update client, please try again</string>
+
+    <!-- Staff -->
+    <string name="staffs">Staffs</string>
+    <string name="addNewStaff">Add New Staff</string>
+    <string name="editStaff">Edit Staff</string>
+    <string name="updateStaff">Update Staff</string>
+    <string name="deleteStaff">Delete Staff</string>
+    <string name="staff">Staff</string>
+    <string name="staff_id">Staff ID</string>
+    <string name="staff_name">Name</string>
+    <string name="staff_email">Email</string>
+    <string name="staff_phone">Phone</string>
+    <string name="company_id">Company ID</string>
+    <string name="company_name">Company</string>
+    <string name="tooltip_staff_add">Add New Staff</string>
+    <string name="tooltip_staff_update">Update Staff</string>
+    <string name="tooltip_staff_delete">Delete Staff</string>
+    <string name="tooltip_staff_back">Back to Staff Page</string>
+    <string name="confirmation_add_new_staff">Are you sure to add this new staff?</string>
+    <string name="confirmation_update_staff">Are you sure to update this staff?</string>
+    <string name="confirmation_delete_staff">Are you sure to delete this staff?</string>
+    <string name="success_add_new_staff">New staff has been added successfully</string>
+    <string name="success_update_staff">Staff has been updated successfully</string>
+    <string name="success_delete_staff">Staff has been deleted successfully</string>
+    <string name="error_invalid_email">Your Email Id is invalid</string>
+    <string name="error_add_new_staff">Failed to add new staff, please try again</string>
+    <string name="error_update_staff">Failed to update staff, please try again</string>
+    <string name="error_delete_staff">Failed to delete staff, please try again</string>
+
+    <!-- Service -->
+    <string name="services">Services</string>
+    <string name="addNewService">Add New Service</string>
+    <string name="editService">Edit Service</string>
+    <string name="updateService">Update Service</string>
+    <string name="deleteService">Delete Service</string>
+    <string name="service">Service</string>
+    <string name="setting">Setting</string>
+    <string name="service_id">Service ID</string>
+    <string name="service_name">Name</string>
+    <string name="service_price">Price</string>
+    <string name="service_price_currency">RM</string>
+    <string name="service_duration">Duration</string>
+    <string name="service_duration_minutes">minutes</string>
+    <string name="service_duration_minutes_short_form">mins</string>
+    <string name="category_id">Category ID</string>
+    <string name="category_name">Category</string>
+    <string name="tooltip_service_add">Add New Service</string>
+    <string name="tooltip_service_update">Update Service</string>
+    <string name="tooltip_service_delete">Delete Service</string>
+    <string name="tooltip_service_back">Back to Service Page</string>
+    <string name="confirmation_add_new_service">Are you sure to add this new service?</string>
+    <string name="confirmation_update_service">Are you sure to update this service?</string>
+    <string name="confirmation_delete_service">Are you sure to delete this service?</string>
+    <string name="success_add_new_service">New service has been added successfully</string>
+    <string name="success_update_service">Service has been updated successfully</string>
+    <string name="success_delete_service">Service has been deleted successfully</string>
+    <string name="error_add_new_service">Failed to add new service, please try again</string>
+    <string name="error_update_service">Failed to update service, please try again</string>
+    <string name="error_delete_service">Failed to delete service, please try again</string>
+
+    <!-- Booking -->
+    <string name="addNewBooking">Add New Booking</string>
+    <string name="reviewBooking">Review Booking</string>
+    <string name="deleteBooking">Delete Booking</string>
+    <string name="booking_time">Time</string>
+    <string name="booking_company">Company</string>
+    <string name="booking_staff">Staff</string>
+    <string name="booking_staff_name">Staff Name</string>
+    <string name="booking_staff_not_available">The selected staff is no available at</string>
+    <string name="booking_client">Client</string>
+    <string name="booking_client_name">Client Name</string>
+    <string name="invalid_booking_time">Booking must be later than current date/time</string>
+    <string name="tooltip_booking_add">Add New Booking</string>
+    <string name="tooltip_booking_delete">Delete Booking</string>
+    <string name="tooltip_booking_back">Back to Booking Page</string>
+    <string name="confirmation_add_new_booking">Are you sure to add this new booking?</string>
+    <string name="confirmation_delete_booking">Are you sure to cancel this booking?</string>
+    <string name="success_add_new_booking">New booking has been added successfully</string>
+    <string name="success_delete_booking">Booking has been cancelled successfully</string>
+    <string name="error_add_new_booking">Failed to add new booking, please try again</string>
+    <string name="error_delete_booking">Failed to cancel booking, please try again</string>
+    <string name="service_list_hint">Long press the item if you wish to remove</string>
+
+    <!-- Transaction -->
+    <string name="transaction">Transaction</string>
+    <string name="tooltip_transaction_resend_receipt">Resend receipt</string>
+    <string name="confirmation_resend_receipt">Are you sure to resend this booking receipt to the client?</string>
+    <string name="success_resend_receipt">Receipt has been sent successfully</string>
+    <string name="error_resend_receipt">Failed to send receipt, please try again</string>
+
+    <!-- Setting -->
+    <string name="changePassword">Change Password</string>
+    <string name="changeWorkingTime">Change Working Time</string>
+    <string name="tooltip_password_update">Update Password</string>
+    <string name="tooltip_password_back">Back to Setting Page</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="change_password_hint">* Type to change new password</string>
+    <string name="confirmation_update_password">Are you sure to update this new password?</string>
+    <string name="success_update_password">Password has been updated successfully</string>
+    <string name="error_update_password">Failed to update password, please try again</string>
+    <string name="success_update_workingHour">Working hour has been updated successfully</string>
+    <string name="error_update_workingHour">Failed to update working hour, please try again</string>
+    <string name="password_not_match_database">Current password does not correct</string>
+    <string name="new_password_not_match">New password and confirm password does not match</string>
+</resources>
